@@ -1,0 +1,819 @@
+{
+  "books": [
+    {
+      "title": "The Complete Short Stories of H.G. Wells",
+      "author": [
+        "H.G. Wells"
+      ],
+      "genre": [
+        "Science Fiction"
+      ],
+      "category": [
+        "Fiction",
+        " British"
+      ],
+      "id": "FI624800"
+    },
+    {
+      "title": "The Doctor's Dilemma",
+      "author": [
+        "Bernard Shaw"
+      ],
+      "genre": [
+        "Satire"
+      ],
+      "category": [
+        "Play",
+        " Fiction"
+      ],
+      "id": "PL542678"
+    },
+    {
+      "title": "Men Against The Sea",
+      "author": [
+        "Charles Nordhoff",
+        " James Norman Hall"
+      ],
+      "genre": [
+        "Adventure",
+        " Sea"
+      ],
+      "category": [
+        "Fiction",
+        " British"
+      ],
+      "id": "FI336919"
+    },
+    {
+      "title": "IIT Physics",
+      "author": [
+        "Dr. S.L. Gupta",
+        " Sanjeev Gupta"
+      ],
+      "genre": [
+        "Physics"
+      ],
+      "category": [
+        "Academic",
+        " Indian"
+      ],
+      "id": "AC899577"
+    },
+    {
+      "title": "Malayalam English Dictionary",
+      "author": [
+        "M.A. Variyar",
+        " E.P. Narayana Bhattathiri",
+        " K. Radhakrishnan Variyar"
+      ],
+      "genre": [
+        "Dictionary"
+      ],
+      "category": [
+        "Reference",
+        " Malayalam"
+      ],
+      "id": "RE808671"
+    },
+    {
+      "title": "English English Malayalam Dictionary",
+      "author": [
+        "T. Ramalingam Pillai"
+      ],
+      "genre": [
+        "Dictionary"
+      ],
+      "category": [
+        "Reference",
+        " Bilingual",
+        " Malayalam",
+        " English",
+        " Kerala"
+      ],
+      "id": "RE117648"
+    },
+    {
+      "title": "Organic Chemistry",
+      "author": [
+        "Solomons",
+        " Fryhle"
+      ],
+      "genre": [
+        "Chemistry"
+      ],
+      "category": [
+        "Academic",
+        " English"
+      ],
+      "id": "AC013122"
+    },
+    {
+      "title": "Primary General Science",
+      "author": [
+        "Sheila Pereira",
+        " Philip Lee",
+        " Tan Chek Fong"
+      ],
+      "genre": [
+        "General Science"
+      ],
+      "category": [
+        "Reference",
+        " English"
+      ],
+      "id": "RE772082"
+    },
+    {
+      "title": "The Feynman Lectures on Physics, Vol. 3",
+      "author": [
+        "Richard Feynman",
+        " Leighton",
+        " Sands"
+      ],
+      "genre": [
+        "Physics"
+      ],
+      "category": [
+        "Reference",
+        " American"
+      ],
+      "id": "RE855948"
+    },
+    {
+      "title": "The Feynman Lectures on Physics, Vol. 2",
+      "author": [
+        "Richard Feynman",
+        " Leighton",
+        " Sands"
+      ],
+      "genre": [
+        "Physics"
+      ],
+      "category": [
+        "Reference",
+        " American"
+      ],
+      "id": "RE865050"
+    },
+    {
+      "title": "Computer Master",
+      "author": [
+        "Dr. Aranmula Hari Hara Puthran"
+      ],
+      "genre": [
+        "Computer",
+        " IT"
+      ],
+      "category": [
+        "Reference",
+        " Bad English",
+        " Very Bad English"
+      ],
+      "id": "RE370127"
+    },
+    {
+      "title": "Quiz World",
+      "author": [
+        "V.S. Sudheesh Chandran"
+      ],
+      "genre": [
+        "General Knowledge",
+        " Outdated"
+      ],
+      "category": [
+        "Reference",
+        " Insignificant"
+      ],
+      "id": "RE406619"
+    },
+    {
+      "title": "Fundamental Physics",
+      "author": [
+        "K.L. Gomber",
+        " K.L. Gogia"
+      ],
+      "genre": [
+        "Physics",
+        " Academics"
+      ],
+      "category": [
+        "Reference",
+        " Indian"
+      ],
+      "id": "RE253274"
+    },
+    {
+      "title": "Awakening the Mind, Lightening the Heart",
+      "author": [
+        "Dalai Lama"
+      ],
+      "genre": [
+        "Crank Spirituality"
+      ],
+      "category": [
+        "Delusions",
+        " English"
+      ],
+      "id": "DE056517"
+    },
+    {
+      "title": "World of Science",
+      "author": [
+        "Paragon Books Ltd",
+        " Various others"
+      ],
+      "genre": [
+        "General Science"
+      ],
+      "category": [
+        "Reference",
+        " American"
+      ],
+      "id": "RE065045"
+    },
+    {
+      "title": "Learner's Hindi-English Dictionary",
+      "author": [
+        "Dr. Hardev Bahri"
+      ],
+      "genre": [
+        "Dictionary",
+        " Hindi"
+      ],
+      "category": [
+        "Reference",
+        " Hindi",
+        " English"
+      ],
+      "id": "RE378109"
+    },
+    {
+      "title": "Theories of Surplus-Value",
+      "author": [
+        "Karl Marx"
+      ],
+      "genre": [
+        "Academia"
+      ],
+      "category": [
+        "Economics"
+      ],
+      "id": "EC757078"
+    },
+    {
+      "title": "Pre-Capitalist Socio-Economic Formations",
+      "author": [
+        "Karl Marx",
+        " Engels"
+      ],
+      "genre": [
+        "Political Thought"
+      ],
+      "category": [
+        "Political Science"
+      ],
+      "id": "PO493210"
+    },
+    {
+      "title": "Harry Potter and the Prisoner of Askaban",
+      "author": [
+        "J.K. Rowling"
+      ],
+      "genre": [
+        "Magic",
+        " Adventure"
+      ],
+      "category": [
+        "Fiction",
+        " English",
+        " British"
+      ],
+      "id": "FI059190"
+    },
+    {
+      "title": "Learn Java Now",
+      "author": [
+        "Stephen R. Davis"
+      ],
+      "genre": [
+        "Java Programming"
+      ],
+      "category": [
+        "Computer Science"
+      ],
+      "id": "CO556379"
+    },
+    {
+      "title": "Brisingr",
+      "author": [
+        "Christopher Paolini"
+      ],
+      "genre": [
+        "Magic",
+        " Adventure",
+        " Fantasy"
+      ],
+      "category": [
+        "fiction",
+        " american",
+        " english"
+      ],
+      "id": "FI109933"
+    },
+    {
+      "title": "Sathyajith Ray's Pather Panjali",
+      "author": [
+        "K.V. Ramankutty"
+      ],
+      "genre": [
+        "Criticism"
+      ],
+      "category": [
+        "Cinema",
+        " Criticism"
+      ],
+      "id": "CI568992"
+    },
+    {
+      "title": "Bhaghashilppam",
+      "author": [
+        "Karyamkulam P.N. Murali"
+      ],
+      "genre": [
+        "Grammar"
+      ],
+      "category": [
+        "Grammar",
+        " Malayalam"
+      ],
+      "id": "GR363891"
+    },
+    {
+      "title": "An Anthology of Short Stories",
+      "author": [
+        "T.H. Ireland",
+        " Various others"
+      ],
+      "genre": [
+        "Mixed"
+      ],
+      "category": [
+        "Fiction",
+        " English"
+      ],
+      "id": "FI708648"
+    },
+    {
+      "title": "Higher Algebra",
+      "author": [
+        "Henry Sinclair Hall",
+        " Samuel Ratcliff Knight"
+      ],
+      "genre": [
+        "Academia"
+      ],
+      "category": [
+        "Mathematics"
+      ],
+      "id": "MA792963"
+    },
+    {
+      "title": "Problem-Solving Strategies",
+      "author": [
+        "Arthur Engel"
+      ],
+      "genre": [
+        "Problem Solving"
+      ],
+      "category": [
+        "Mathematics"
+      ],
+      "id": "MA537891"
+    },
+    {
+      "title": "War and Peace",
+      "author": [
+        "Leo Tolstoy"
+      ],
+      "genre": [
+        "Adventure",
+        " Drama",
+        " Classics"
+      ],
+      "category": [
+        "Fiction",
+        " Russian",
+        " English"
+      ],
+      "id": "FI453420"
+    },
+    {
+      "title": "New Concise Webster's Dictionary",
+      "author": [
+        "Modern Publishing",
+        " Various others"
+      ],
+      "genre": [
+        "English",
+        " Concise"
+      ],
+      "category": [
+        "Dictionary"
+      ],
+      "id": "DI171793"
+    },
+    {
+      "title": "High School English Grammar and Composition",
+      "author": [
+        "P.C. Wren",
+        " H. Martin"
+      ],
+      "genre": [
+        "High School Grammar"
+      ],
+      "category": [
+        "Grammar",
+        " English"
+      ],
+      "id": "GR331718"
+    },
+    {
+      "title": "Problems in General Physics",
+      "author": [
+        "IE Irodov"
+      ],
+      "genre": [
+        "Physics"
+      ],
+      "category": [
+        "Reference",
+        " Problem Solving"
+      ],
+      "id": "RE762805"
+    },
+    {
+      "title": "Problems in Calculus of One Variable",
+      "author": [
+        "IA Maron"
+      ],
+      "genre": [
+        "Calculus"
+      ],
+      "category": [
+        "Mathematics"
+      ],
+      "id": "MA001703"
+    },
+    {
+      "title": "Glimpses of World History",
+      "author": [
+        "Jawaharlal Nehru"
+      ],
+      "genre": [
+        "World History"
+      ],
+      "category": [
+        "History",
+        " Indian",
+        " English"
+      ],
+      "id": "HI123248"
+    },
+    {
+      "title": "The Apple Cart",
+      "author": [
+        "Bernard Shaw"
+      ],
+      "genre": [
+        "Unknown",
+        " Unread"
+      ],
+      "category": [
+        "Play",
+        " Fiction"
+      ],
+      "id": "PL409669"
+    },
+    {
+      "title": "The Famous Five versus the Black Mask",
+      "author": [
+        "Claude Voilier"
+      ],
+      "genre": [
+        "Adventure",
+        " Sea"
+      ],
+      "category": [
+        "Fiction",
+        " French"
+      ],
+      "id": "FI543538"
+    },
+    {
+      "title": "Contact",
+      "author": [
+        "Carl Sagan"
+      ],
+      "genre": [
+        "Science Fiction"
+      ],
+      "category": [
+        "Fiction",
+        " American",
+        " English"
+      ],
+      "id": "FI490208"
+    },
+    {
+      "title": "Kavya Kairali, Vol. 2",
+      "author": [
+        "University of Kerala",
+        " Various Others"
+      ],
+      "genre": [
+        "College Poetry",
+        " Acedemia"
+      ],
+      "category": [
+        "Poetry",
+        " Malayalam"
+      ],
+      "id": "PO392769"
+    },
+    {
+      "title": "Jane Eyre",
+      "author": [
+        "Charlotte Bronte"
+      ],
+      "genre": [
+        "Drama",
+        " Classic"
+      ],
+      "category": [
+        "Fiction",
+        " British"
+      ],
+      "id": "FI155490"
+    },
+    {
+      "title": "Mentor Book of Short Plays",
+      "author": [
+        "Richard H. Goldstone",
+        " Abraham H. Lass",
+        " Various others"
+      ],
+      "genre": [
+        "Mixed",
+        " Unread"
+      ],
+      "category": [
+        "Plays"
+      ],
+      "id": "PL610672"
+    },
+    {
+      "title": "Gone with the Wind",
+      "author": [
+        "Unknown"
+      ],
+      "genre": [
+        "Drama",
+        " Action"
+      ],
+      "category": [
+        "Fiction",
+        " American"
+      ],
+      "id": "FI715120"
+    },
+    {
+      "title": "Concise Inorganic Chemistry",
+      "author": [
+        "J.D. Lee"
+      ],
+      "genre": [
+        "Inorganic Chemistry",
+        " Academia"
+      ],
+      "category": [
+        "Chemistry"
+      ],
+      "id": "CH796434"
+    },
+    {
+      "title": "How Things Work",
+      "author": [
+        "Paragon Books Ltd",
+        " Various others"
+      ],
+      "genre": [
+        "Mechanics"
+      ],
+      "category": [
+        "Reference",
+        " American"
+      ],
+      "id": "RE024339"
+    },
+    {
+      "title": "Dreams from my Father",
+      "author": [
+        "Barack Obama"
+      ],
+      "genre": [
+        "Political Thought"
+      ],
+      "category": [
+        "Autobiography"
+      ],
+      "id": "AU900928"
+    },
+    {
+      "title": "The God of Small Things",
+      "author": [
+        "Arundhati roy"
+      ],
+      "genre": [
+        "Booker Prize"
+      ],
+      "category": [
+        "Fiction",
+        " English"
+      ],
+      "id": "FI341503"
+    },
+    {
+      "title": "Wings of Fire",
+      "author": [
+        "Arun Tiwari",
+        " APJ Abdul Kalam"
+      ],
+      "genre": [
+        "Boring"
+      ],
+      "category": [
+        "Autobiography"
+      ],
+      "id": "AU509975"
+    },
+    {
+      "title": "Bible",
+      "author": [
+        "Some Ancient Pricks"
+      ],
+      "genre": [
+        "Crank Spirituality"
+      ],
+      "category": [
+        "Religion"
+      ],
+      "id": "RE523258"
+    },
+    {
+      "title": "Kalayum Samuhikajeevithavum",
+      "author": [
+        "G.V Prehanov"
+      ],
+      "genre": [
+        "Unread"
+      ],
+      "category": [
+        "Malayalam"
+      ],
+      "id": "MA175564"
+    },
+    {
+      "title": "Yuri Gagarin",
+      "author": [
+        "C.G Shanthakumar"
+      ],
+      "genre": [
+        "Biography"
+      ],
+      "category": [
+        "Biography"
+      ],
+      "id": "BI987080"
+    },
+    {
+      "title": "Madhuri",
+      "author": [
+        "Thirunayinarkuruchi Madhavannayar"
+      ],
+      "genre": [
+        "Novel"
+      ],
+      "category": [
+        "Fiction",
+        " Malayalam"
+      ],
+      "id": "FI103085"
+    },
+    {
+      "title": "Analysis an Introduction",
+      "author": [
+        "Richard Beals"
+      ],
+      "genre": [
+        "Real Analysis"
+      ],
+      "category": [
+        "Mathematics"
+      ],
+      "id": "MA430139"
+    },
+    {
+      "title": "Feynman Lectures on Physics, Vol.1",
+      "author": [
+        "Richard Feynman",
+        " Leighton",
+        " Sands"
+      ],
+      "genre": [
+        "Physics",
+        " Academics"
+      ],
+      "category": [
+        "Reference",
+        " American"
+      ],
+      "id": "RE608464"
+    },
+    {
+      "title": "Doctor Who Full Circle",
+      "author": [
+        "Andrew Smith"
+      ],
+      "genre": [
+        "Science Fiction",
+        " "
+      ],
+      "category": [
+        "Fiction",
+        " British"
+      ],
+      "id": "FI954963"
+    },
+    {
+      "title": "Doctor Who Full Circle",
+      "author": [
+        "Andrew Smith"
+      ],
+      "genre": [
+        "Science Fiction",
+        " Adventure"
+      ],
+      "category": [
+        "Fiction",
+        " British"
+      ],
+      "id": "FI061229"
+    },
+    {
+      "title": "Doctor Who Full Circle",
+      "author": [
+        "Andrew Smith"
+      ],
+      "genre": [
+        "Science Fiction",
+        " Adventure"
+      ],
+      "category": [
+        "Fiction",
+        " British"
+      ],
+      "id": "FI159783"
+    },
+    {
+      "title": "High School Hindi Grammar and Composition",
+      "author": [
+        "Dr Arthur S. Wilson"
+      ],
+      "genre": [
+        "Grammar"
+      ],
+      "category": [
+        "Reference",
+        " Hindi",
+        " English",
+        " Languages"
+      ],
+      "id": "RE909763"
+    },
+    {
+      "title": "The Helicopter History, Piloting and How it Flies",
+      "author": [
+        "John Fay"
+      ],
+      "genre": [
+        "Mechanics",
+        " Aircrafts"
+      ],
+      "category": [
+        "Reference",
+        " British"
+      ],
+      "id": "RE048462"
+    }
+  ]
+}

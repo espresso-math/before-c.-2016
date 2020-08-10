@@ -1,0 +1,1 @@
+find . -name '_*.scss' -exec bash -c 'mv $0 ${0/_/}' {} \;

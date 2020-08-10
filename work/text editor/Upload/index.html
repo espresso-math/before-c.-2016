@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>PINETEXT | Text Editor</title>
+		<style type = "text/css">
+			body {
+				background-color: #f9f9f9;
+				margin: 0;
+				padding: 0;
+			}
+			@font-face {
+				font-family: myFont;
+				src: url(usherwooditc.woff);
+			}
+			#content {
+				width:100%;
+				height: 700px;
+				margin-left:315.5px;
+				margin-top: 85px;
+			}
+			#textarea {
+				height:1000px;
+				width: 700px;	
+				word-spacing: 0px;
+				padding: 10px;
+				background-color: inherit;
+				border:0;	
+				color: #282828;
+				font-size: 	21px;
+				font-weight: normal;
+				font-family: "Cambria",myFont;
+				font-weight: 30px;
+				font-stretch:condensed;
+				writing-mode: lr-tb
+				display:inline-block;	
+				word-wrap: break-word;	
+				text-align: start;
+				outline-color: rgb(51, 51, 51);
+				outline-style: none;
+				outline-width: 0px;
+				overflow-x: hidden;
+				overflow-y: hidden;
+				padding-bottom: 0px;
+				padding-left: 18px;
+				padding-right: 18px;
+				padding-top: 0px;
+				resize: none;
+				text-align: start;
+				text-indent: 0px;
+				text-shadow: none;
+				text-transform: none;
+				transition-delay: 0s, 0s;
+				transition-duration: 0.2s, 0.2s;
+				transition-property: border, box-shadow;
+				transition-timing-function: linear, linear;
+				vertical-align: middle;
+				white-space: pre-wrap;
+				width: 700px;
+				word-spacing: 0px;
+				word-wrap: break-word;
+				writing-mode: lr-tb;
+			}
+			input:focus,
+			select:focus,
+			textarea:focus,
+			button:focus {
+    			outline: none;
+			}
+			#logo {
+				height: 70px;
+				width: 238.9333333px;
+				position: absolute;
+				top:10px;
+				left: 10px;
+				border-radius: 5px;
+			}
+			
+		</style>
+		<script src = "jquery.min.js"></script>
+		<script type="text/javascript">
+			$( document ).ready(function() {
+				$("textarea").keydown(function(event) {
+					if(event.keyCode === 9) {
+						var start = this.selectionStart;
+        				var end = this.selectionEnd;
+
+        				var $this = $(this);
+        				var value = $this.val();
+        				$this.val(value.substring(0, start) + "\t" + value.substring(end));
+        				this.selectionStart = this.selectionEnd = start + 1;
+        				event.preventDefault();
+					}
+					
+
+				});
+				
+			});
+			window.onbeforeunload = confirmExit;
+			function confirmExit() {
+			    return "You have attempted to leave this page. If you do not copy and paste what you have typed to an external source all changes will be lost. Are you sure you want to exit this page?";
+			}
+		</script>
+
+
+	</head>
+	<body <body onunload="really()">
+		
+		<div id = "o">
+			<a href = "http://www.doodlingwithwords.tk"><img id = "logo"src = "logo.png"></a>
+		</div>
+
+		<div id = "content">
+			<textarea id = "textarea" name = "text" direction = "ltr" spellcheck = "true" autocapitalize = "on" autocomplete = "off" autocorrect = "off" onhaschange = "getText()" autofocus = "autofocus"></textarea>
+		</div>
+		<div id = "putHere"></div>
+	</body>
+</html>

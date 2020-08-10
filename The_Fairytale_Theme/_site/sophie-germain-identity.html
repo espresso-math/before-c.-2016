@@ -1,0 +1,232 @@
+
+
+<!doctype html>
+<html lang="en" prefix="og: http://ogp.me/ns#">
+<meta charset="utf-8">
+<title>The Sophie Germain Identity &#8211; Espresso Math</title>
+<meta name="description" content="Marie Sophie Germain was a nineteenth century mathematician who did extensive work on the theory of elasticity and on Fermat's Last Theorem.">
+<meta name="keywords" content="">
+
+<!-- DSLs for various open graph languages -->
+<meta property="og:locale" content="en_US">
+<meta property="og:title" content="The Sophie Germain Identity &#8211; Espresso Math">
+<meta property="og:description" content="Marie Sophie Germain was a nineteenth century mathematician who did extensive work on the theory of elasticity and on...">
+<meta property="og:url" content="/sophie-germain-identity">
+<meta property="og:site_name" content="Espresso Math">
+
+
+
+
+
+<link href="/feed.xml" type="application/atom+xml" rel="alternate" title="Espresso Math Feed">
+
+<!-- http://t.co/dKP3o1e -->
+<meta name="HandheldFriendly" content="True">
+<meta name="MobileOptimized" content="320">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<!-- Type -->
+<link href="//fonts.googleapis.com/css?family=Source+Sans+Pro:400,700" rel='stylesheet' type='text/css'>
+<link rel="stylesheet" href="/assets/css/entypo.css" media="all">
+<link rel = "stylesheet" href = "/assets/css/fonts/newtypo.css" media = "all">
+
+
+<!-- For all browsers -->
+<link rel="stylesheet" href="/assets/css/i.css">
+
+<!-- Fresh Squeezed jQuery -->
+
+<script src="//ajax.googleapis.com/ajax/libs/jquery/1/jquery.min.js"></script>
+
+<meta http-equiv="cleartype" content="on">
+
+<!-- Mathjax -->
+
+
+<script type="text/x-mathjax-config">
+  MathJax.Hub.Config({
+    extensions: ["tex2jax.js"],
+    jax: ["input/TeX","output/HTML-CSS"],
+    tex2jax: {inlineMath: [["$","$"],["\\(","\\)"]]},
+    messageStyle: "none"
+  });
+</script>
+<script type="text/javascript" async
+  src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-MML-AM_CHTML">
+</script>
+
+
+
+<!-- Typefix -->
+
+<!-- Indentation for paragraphs -->
+
+
+	<style type = "text/css">
+		p:first-of-type, .no-indent {
+			text-indent: 0;
+		}
+		p {
+			text-indent: 20px;
+		}
+	</style>
+	
+
+
+<!-- Centered text for poetry -->
+
+
+
+
+
+
+<!-- Load Modernizr -->
+<script src="/assets/js/vendor/modernizr-2.6.2.custom.min.js"></script>
+
+
+<!-- Icons -->
+<!-- 16x16 -->
+<link rel="shortcut icon" href="/favicon.ico">
+<div id="bump">
+  <body class="">
+    <header class="site-header darken">
+      <div class="wrap">
+        <hgroup>
+          <table>
+            <tr>
+             
+              <th><h1><a href="/">Espresso Math</a></h1></th>
+            </tr>
+          </table>
+        </hgroup>
+        <a href="#nav" class="menu"><span class='icons'>☰</span></a>
+        <nav role="navigation">
+          <ul>
+            <li>
+              <a href="/" title="Espresso Math">Home</a>
+            </li>
+            
+            
+                <li><a href="/about" >About</a></li>
+            
+
+          </ul>
+        </nav>
+      </div>
+    </header>
+
+
+<section class="article pad-top">
+
+
+
+
+      <article class="wrap post">
+        <header class="post-header">
+          <hgroup>
+            
+            <h1>The Sophie Germain Identity</h1>
+            
+            <div class = "tiny-bar"></div>
+            <p class="date no-indent">Feb 05, 2016</p>
+            <p class="intro no-indent">Marie Sophie Germain was a nineteenth century mathematician who did extensive work on the theory of elasticity and on Fermat's Last Theorem.</p>
+          </hgroup>
+        </header>
+
+        <p>Let’s look at this question which was first appeared in the Mathematics Magazine 1950. It was put forward
+by A.Makowski, a leader of the Polish IMO team. Later it was asked for the 1978 Ku:rschak
+competition.</p>
+
+<blockquote>
+  <p>Prove that <script type="math/tex">n^4 + 4^n</script> is composite for all natural numbers $n&gt;1$.</p>
+</blockquote>
+
+<p>This question is a particular example of the Sophie Germain’s Identity which states that,
+\begin{align}
+	a^4 + 4b^4 = (a^2 + 2b^2 -2ab)(a^2 + 2b^2 + 2ab).
+\end{align}</p>
+
+<p>Marie Sophie Germain was an nineteenth century mathematician who did extensive work on 
+the theory of elasticity and on the Fermat’s Last Theorem. Her work enabled [TODO:find name]
+to prove Fermat’s Last Theorem for $n= 5$. For more information about Sophie Germain go this excellent
+Mactutor biography[TODO:link]. So let’s use the Sohpie Germain Identity to solve this question.</p>
+
+<h2 id="proof">Proof</h2>
+
+<p>Consider the special case when $n$ is even. Then,</p>
+
+<p>\begin{align}
+	2 \mid (n^4 + 4^n).
+\end{align}</p>
+
+<p>But what if $n$ is odd? Let $n = 2k+1$. Let’s apply the Sohpie Germain Identity and see what we get. Notice that $n^4 + 4^n$ can be rewritten as,
+\begin{align}
+	(2k+1)^4 + 4\dot (2^k)^4.
+\end{align}
+Which means that we can factorize the expression into,</p>
+
+<p>\begin{equation}
+(2k+1)^2 + 2(2^k)^2 - 2(2k+1)(2^k) \times \\
+(2k+1)^2 + 2(2^k)^2 + 2(2k+1)(2^k)
+\end{equation}</p>
+
+<p>So we realize that the expression can indeed be factorized.</p>
+
+<p>It’s not too hard too figure out why $n$ cannot be $1$.</p>
+
+
+
+      <a class="share" href="https://twitter.com/intent/tweet?text=&quot;The Sophie Germain Identity&quot;%20espresso-math.github.io/sophie-germain-identity%20via%20&#64;" data-dnt="true">Share</a>
+      <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src="//platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
+
+      
+
+      </article>
+    </section>
+</div>
+
+<div class="push"></div>
+  <footer>
+    <aside class="wrap">
+      <ol class="prev-posts">
+        <p class="list-title">Recent Posts</p>
+         <!-- for1 -->
+            <li>
+              <span class="recent-title"><a href="/sophie-germain-identity" title="The Sophie Germain Identity">The Sophie Germain Identity </a></span>
+              <span class="date">Feb 05, 2016</span>
+            </li>
+         <!-- for1 -->
+            <li>
+              <span class="recent-title"><a href="/read-me-now" title="Read Me Now">Read Me Now </a></span>
+              <span class="date">Jan 31, 2016</span>
+            </li>
+         <!-- for1 -->
+            <li>
+              <span class="recent-title"><a href="/charles-kingsley-water-babies" title="Charles Kingsley's The Water-Babies">Charles Kingsley's The Wate... </a></span>
+              <span class="date">Jan 28, 2016</span>
+            </li>
+        
+      </ol>
+
+      <div class="social">
+        <ul>
+          
+            <li><span class = "foot-link">"Cringe. Now bad poetry."</span></li>
+          
+        </ul>
+    </div>
+    </aside>
+    <small>&copy; 2016 Adrian Glitch. Powered by <a href="http://jekyllrb.com">Jekyll</a> using the <a href="http://internet.org">Fairytale</a> theme.</small>
+  </footer>
+
+  <!-- If they're out, get some from the cellar -->
+  <script>window.jQuery || document.write('<script src="/assets/js/vendor/jquery-1.9.1.min.js"><\/script>')</script>
+  <script src="/assets/js/retina.min.js"></script>
+
+  <!-- Custom JS -->
+  <script src="/assets/js/scripts.js"></script>
+
+
+  </body>
+</html>
+

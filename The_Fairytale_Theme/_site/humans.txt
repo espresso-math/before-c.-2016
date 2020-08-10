@@ -1,0 +1,11 @@
+/* TEAM */
+Creator: Adrian Glitch
+Contact: adrianglitch.auth@gmail.com
+Twitter: 
+Location: 
+                           
+
+/* SITE */                         
+Last update: 2016-02-13
+Standards: HTML, SCSS, Jekyll                        
+Software: git

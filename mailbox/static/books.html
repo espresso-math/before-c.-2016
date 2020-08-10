@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Book Catalog</title>
+
+	<style type="text/css">
+		.wrapper {
+			margin-left: 34%;
+			margin-top: 14%;
+		}
+		input {
+			width: 240px;
+		}
+	</style>
+</head>
+<body>
+
+<div class="wrapper">
+	<h1>Book Catalog</h1>
+
+	<form method="post" action="/api/v1/books">
+		<label>Title:</label>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 
+			<input type="text" name="title"></input><br><br>
+		<label>Author:</label>&nbsp;&nbsp;&nbsp;
+			<input type="text" name="author"></input><br><br>
+		<label>Genre:</label>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+			<input type="text" name="genre"></input><br><br>
+		<label>Category:</label>
+			<input type="text" name="category"></input><br><br>
+
+		<input type="submit" value="Submit"></input>
+	</form>
+</div>
+
+</body>
+</html>

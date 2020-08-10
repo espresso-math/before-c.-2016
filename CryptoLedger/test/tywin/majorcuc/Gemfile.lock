@@ -1,0 +1,15 @@
+GEM
+  remote: http://rubygem.org/
+  specs:
+    ffi (1.9.10)
+    rbnacl (3.4.0)
+      ffi
+
+PLATFORMS
+  ruby
+
+DEPENDENCIES
+  rbnacl
+
+BUNDLED WITH
+   1.10.6

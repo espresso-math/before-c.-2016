@@ -1,0 +1,640 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
+<title type="text">Espresso Math</title>
+<subtitle type="text">A Cup of Figures</subtitle>
+<generator uri="https://github.com/mojombo/jekyll">Jekyll</generator>
+<link rel="self" type="application/atom+xml" href="/feed.xml" />
+<link rel="alternate" type="text/html" href="" />
+<updated>2016-02-13T11:00:37-05:00</updated>
+<id>/</id>
+<author>
+  <name>Adrian Glitch</name>
+  <uri>/</uri>
+  <email>adrianglitch.auth@gmail.com</email>
+</author>
+
+
+<entry>
+  <title type="html"><![CDATA[The Sophie Germain Identity]]></title>
+  <link rel="alternate" type="text/html" href="/sophie-germain-identity" />
+  <id>/sophie-germain-identity</id>
+  <published>2016-02-05T03:47:56-05:00</published>
+  <updated>2016-02-05T03:47:56-05:00</updated>
+  <author>
+    <name>Adrian Glitch</name>
+    <uri></uri>
+    <email>adrianglitch.auth@gmail.com</email>
+  </author>
+  <content type="html">&lt;p&gt;Let’s look at this question which was first appeared in the Mathematics Magazine 1950. It was put forward
+by A.Makowski, a leader of the Polish IMO team. Later it was asked for the 1978 Ku:rschak
+competition.&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;Prove that &lt;script type=&quot;math/tex&quot;&gt;n^4 + 4^n&lt;/script&gt; is composite for all natural numbers $n&amp;gt;1$.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;This question is a particular example of the Sophie Germain’s Identity which states that,
+\begin{align}
+	a^4 + 4b^4 = (a^2 + 2b^2 -2ab)(a^2 + 2b^2 + 2ab).
+\end{align}&lt;/p&gt;
+
+&lt;p&gt;Marie Sophie Germain was an nineteenth century mathematician who did extensive work on 
+the theory of elasticity and on the Fermat’s Last Theorem. Her work enabled [TODO:find name]
+to prove Fermat’s Last Theorem for $n= 5$. For more information about Sophie Germain go this excellent
+Mactutor biography[TODO:link]. So let’s use the Sohpie Germain Identity to solve this question.&lt;/p&gt;
+
+&lt;h2 id=&quot;proof&quot;&gt;Proof&lt;/h2&gt;
+
+&lt;p&gt;Consider the special case when $n$ is even. Then,&lt;/p&gt;
+
+&lt;p&gt;\begin{align}
+	2 \mid (n^4 + 4^n).
+\end{align}&lt;/p&gt;
+
+&lt;p&gt;But what if $n$ is odd? Let $n = 2k+1$. Let’s apply the Sohpie Germain Identity and see what we get. Notice that $n^4 + 4^n$ can be rewritten as,
+\begin{align}
+	(2k+1)^4 + 4\dot (2^k)^4.
+\end{align}
+Which means that we can factorize the expression into,&lt;/p&gt;
+
+&lt;p&gt;\begin{equation}
+(2k+1)^2 + 2(2^k)^2 - 2(2k+1)(2^k) \times \\
+(2k+1)^2 + 2(2^k)^2 + 2(2k+1)(2^k)
+\end{equation}&lt;/p&gt;
+
+&lt;p&gt;So we realize that the expression can indeed be factorized.&lt;/p&gt;
+
+&lt;p&gt;It’s not too hard too figure out why $n$ cannot be $1$.&lt;/p&gt;
+
+
+  &lt;p&gt;&lt;a href=&quot;/sophie-germain-identity&quot;&gt;The Sophie Germain Identity&lt;/a&gt; was originally published by Adrian Glitch at &lt;a href=&quot;&quot;&gt;Espresso Math&lt;/a&gt; on February 05, 2016.&lt;/p&gt;</content>
+</entry>
+
+
+<entry>
+  <title type="html"><![CDATA[Read Me Now]]></title>
+  <link rel="alternate" type="text/html" href="/read-me-now" />
+  <id>/read-me-now</id>
+  <published>2016-01-31T05:53:04-05:00</published>
+  <updated>2016-01-31T05:53:04-05:00</updated>
+  <author>
+    <name>Adrian Glitch</name>
+    <uri></uri>
+    <email>adrianglitch.auth@gmail.com</email>
+  </author>
+  <content type="html">&lt;p&gt;&lt;em&gt;I&lt;/em&gt; thought Balzac was a wizard’s name. So when I forked and tweaked &lt;a href=&quot;@twnsndco&quot;&gt;Cole Townsend’s&lt;/a&gt; Balzac for Jekyll theme I named it Fairytale. It’s a theme which is heavy on typography. I did little modification to the home page. But I took my liberty with the rest. Fairytale is my first theme for jekyll. I didn’t change the layout more than was necessary since I intend the theme to reflect Balzac in functionaliy.&lt;/p&gt;
+
+&lt;h2 id=&quot;features&quot;&gt;Features&lt;/h2&gt;
+&lt;ul&gt;
+  &lt;li&gt;A few typographical eye candy&lt;/li&gt;
+  &lt;li&gt;MathJax&lt;/li&gt;
+  &lt;li&gt;Plus all inherited features from Balzac&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;features-derived&quot;&gt;Features: derived&lt;/h3&gt;
+&lt;ul&gt;
+  &lt;li&gt;flexible, uses max-width for responsive goodness&lt;/li&gt;
+  &lt;li&gt;responsive drop down menu&lt;/li&gt;
+  &lt;li&gt;retina images using @2x&lt;/li&gt;
+  &lt;li&gt;post loop in the footer showing 3 latest posts&lt;/li&gt;
+  &lt;li&gt;custom portfolio page for case studies&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;basic-setup&quot;&gt;Basic Setup&lt;/h2&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;&lt;a href=&quot;http://jekyllrb.com&quot;&gt;Install Jekyll&lt;/a&gt; if you haven’t already.&lt;/li&gt;
+  &lt;li&gt;Download this bad boy.&lt;/li&gt;
+  &lt;li&gt;Fork the &lt;a href=&quot;http://github.com/username/fairytale-theme&quot;&gt;Fairytale repo&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;Twerk it out so it’s just for you.&lt;/li&gt;
+  &lt;li&gt;???&lt;/li&gt;
+  &lt;li&gt;Profit&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;h2 id=&quot;preview-this-themehttpespresso-mathgithubio&quot;&gt;&lt;a href=&quot;http://espresso-math.github.io&quot;&gt;Preview this Theme&lt;/a&gt;&lt;/h2&gt;
+
+&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-bash&quot; data-lang=&quot;bash&quot;&gt; 
+Fairytale-Theme/
+├── _includes
+|    ├── footer.html  //site footer
+|    ├── head.html  //site head
+|    ├── head-dark.html  //dark site head &lt;span class=&quot;k&quot;&gt;for &lt;/span&gt;light pages
+|	 ├── mathjax.html //mathjax configuration
+|    └── typefix.html //a few typographical tricks
+├── _layouts
+|    ├── 404.html   //Edit the 404 file
+|    ├── home.html  //homepage layout
+|    ├── page.html  //page layout
+|    ├── post-index.html  //post listing layout
+|    └── post.html  //post layout
+|    ├── post-no-feature.html  //feature image-less post layout
+├── _posts
+├── _sass
+|    ├── _grid.scss 
+|    ├── _mixins.scss
+|    ├── _normalize.scss
+|    ├── _styles.scss //This make the looks
+|    ├── _type.scss
+|    ├── _variables.scss //Fonts, Colors etc...
+├── _site
+|    ├── //Leave well enough alone
+├── assets
+|    ├── css  //preprocessed less styles. good idea to minify
+|    ├── img  //images and graphics used in css and js
+|    ├── js
+|    ├── ├── main.js  //jQuery plugins and settings
+|    ├   └── vendor  //all 3rd party scripts
+|    └── sass 
+|    └── mathjax //the mathjax files.
+├── images  //images &lt;span class=&quot;k&quot;&gt;for &lt;/span&gt;posts and pages
+└── 404.md //File not found page.
+├── about.md  //about page
+├── articles.md  //lists all posts from latest to oldest
+└── index.md  //homepage. lists 5 most recent posts&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
+
+&lt;h2 id=&quot;customization&quot;&gt;Customization&lt;/h2&gt;
+
+&lt;h2 id=&quot;configyml&quot;&gt;_config.yml&lt;/h2&gt;
+
+&lt;p&gt;Most of the variables found here are used in the .html files found in &lt;code&gt;_includes&lt;/code&gt; if you need to add or remove anything. A good place to start would be to change the title, tagline, description, and url of your site. When working locally comment out &lt;code&gt;url&lt;/code&gt; or else you will get a bunch of broken links because they are absolute and prefixed with `` in the various &lt;code&gt;_includes&lt;/code&gt; and &lt;code&gt;_layouts&lt;/code&gt;. Just remember to uncomment &lt;code&gt;url&lt;/code&gt; when building for deployment or pushing to &lt;strong&gt;gh-pages&lt;/strong&gt;…&lt;/p&gt;
+
+&lt;h3 id=&quot;ownerauthor-information&quot;&gt;Owner/Author Information&lt;/h3&gt;
+
+&lt;p&gt;Change your name, bio, Twitter url, email, Dribbble URL, etc.&lt;/p&gt;
+
+&lt;h3 id=&quot;top-navigation-links&quot;&gt;Top Navigation Links&lt;/h3&gt;
+
+&lt;p&gt;Edit page/post titles and URLs to include in the site’s navigation. For external links add &lt;code&gt;external: true&lt;/code&gt;.&lt;/p&gt;
+
+&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-yaml&quot; data-lang=&quot;yaml&quot;&gt;&lt;span class=&quot;c1&quot;&gt;# sample top navigation links&lt;/span&gt;
+&lt;span class=&quot;l-Scalar-Plain&quot;&gt;links&lt;/span&gt;&lt;span class=&quot;p-Indicator&quot;&gt;:&lt;/span&gt;
+  &lt;span class=&quot;p-Indicator&quot;&gt;-&lt;/span&gt; &lt;span class=&quot;l-Scalar-Plain&quot;&gt;title&lt;/span&gt;&lt;span class=&quot;p-Indicator&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;l-Scalar-Plain&quot;&gt;About Page&lt;/span&gt;
+    &lt;span class=&quot;l-Scalar-Plain&quot;&gt;url&lt;/span&gt;&lt;span class=&quot;p-Indicator&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;l-Scalar-Plain&quot;&gt;/about&lt;/span&gt;
+  &lt;span class=&quot;p-Indicator&quot;&gt;-&lt;/span&gt; &lt;span class=&quot;l-Scalar-Plain&quot;&gt;title&lt;/span&gt;&lt;span class=&quot;p-Indicator&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;l-Scalar-Plain&quot;&gt;Other Page&lt;/span&gt;
+    &lt;span class=&quot;l-Scalar-Plain&quot;&gt;url&lt;/span&gt;&lt;span class=&quot;p-Indicator&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;l-Scalar-Plain&quot;&gt;/other-page&lt;/span&gt;
+  &lt;span class=&quot;p-Indicator&quot;&gt;-&lt;/span&gt; &lt;span class=&quot;l-Scalar-Plain&quot;&gt;title&lt;/span&gt;&lt;span class=&quot;p-Indicator&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;l-Scalar-Plain&quot;&gt;External Page&lt;/span&gt;
+    &lt;span class=&quot;l-Scalar-Plain&quot;&gt;url&lt;/span&gt;&lt;span class=&quot;p-Indicator&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;l-Scalar-Plain&quot;&gt;http://example.org&lt;/span&gt;
+    &lt;span class=&quot;l-Scalar-Plain&quot;&gt;external&lt;/span&gt;&lt;span class=&quot;p-Indicator&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;l-Scalar-Plain&quot;&gt;true&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
+
+&lt;h2 id=&quot;the-new-in-fairyland&quot;&gt;The &lt;strong&gt;New&lt;/strong&gt; in Fairyland&lt;/h2&gt;
+
+&lt;h3 id=&quot;post&quot;&gt;Post&lt;/h3&gt;
+
+&lt;p&gt;You can enlarge the initial letter by emphasizing it like this,&lt;/p&gt;
+
+&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-html&quot; data-lang=&quot;html&quot;&gt;*&amp;quot;W*hen, where, wtf?&amp;quot;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
+
+&lt;h3 id=&quot;note-on-typography&quot;&gt;Note on Typography&lt;/h3&gt;
+
+&lt;p&gt;The body text is in &lt;code&gt;Stempel Schneidler Light Medium&lt;/code&gt;. It a German font really so the question mark &lt;code&gt;?&lt;/code&gt; is upside down. Just fix this by replacing each ? with &lt;code&gt;&amp;lt;span class = &quot;question-mark&quot;&amp;gt;?&amp;lt;/span&amp;gt;&lt;/code&gt;. I won’t apologize for this since it’s my favorite font.&lt;/p&gt;
+
+&lt;p&gt;Most people don’t realize this, but &lt;span style=&quot;font-style:italic;&quot;&gt;this text&lt;/span&gt; is not in italic but in oblique type. There’s a big difference. Oblique text is rendered by the browser by slanting the original font. But italic is an entirely different typeface. If you want &lt;span class=&quot;nice-italic&quot;&gt;italic&lt;/span&gt; instead of oblique use &lt;code&gt;&amp;lt;span class = &quot;nice-italic&quot;&amp;gt;&amp;lt;/span&amp;gt;&lt;/code&gt;. Fairytale use &lt;code&gt;Palatino Linotype&lt;/code&gt; for italic.&lt;/p&gt;
+
+&lt;p&gt;The post heading and other sans text is in &lt;code&gt;Alte Haas Grotesk&lt;/code&gt; ( separate typeface for normal and bold text ). On smaller screens the enormous post heading in &lt;code&gt;100pt&lt;/code&gt; text might be too large and partly hidden. Although on smaller screens the fontsize automatically reduces to &lt;code&gt;50pt&lt;/code&gt; you might want set &lt;code&gt;display_title&lt;/code&gt; in you &lt;code&gt;post.md&lt;/code&gt; file to a smaller, more readable title.&lt;/p&gt;
+
+&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-yaml&quot; data-lang=&quot;yaml&quot;&gt;&lt;span class=&quot;nn&quot;&gt;---&lt;/span&gt;
+&lt;span class=&quot;l-Scalar-Plain&quot;&gt;layout&lt;/span&gt;&lt;span class=&quot;p-Indicator&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;l-Scalar-Plain&quot;&gt;post&lt;/span&gt;
+&lt;span class=&quot;l-Scalar-Plain&quot;&gt;title&lt;/span&gt;&lt;span class=&quot;p-Indicator&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;l-Scalar-Plain&quot;&gt;Really long title&lt;/span&gt;
+&lt;span class=&quot;l-Scalar-Plain&quot;&gt;display_title&lt;/span&gt;&lt;span class=&quot;p-Indicator&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;l-Scalar-Plain&quot;&gt;Bite Me&lt;/span&gt;
+&lt;span class=&quot;nn&quot;&gt;---&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
+
+&lt;p&gt;If you look at the lower right corner of the webpage you’ll find a standalone quote there. You can set this in a post or page using &lt;code&gt;quote&lt;/code&gt;,&lt;/p&gt;
+
+&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-yaml&quot; data-lang=&quot;yaml&quot;&gt;&lt;span class=&quot;nn&quot;&gt;---&lt;/span&gt;
+&lt;span class=&quot;l-Scalar-Plain&quot;&gt;layout&lt;/span&gt;&lt;span class=&quot;p-Indicator&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;l-Scalar-Plain&quot;&gt;post&lt;/span&gt;
+&lt;span class=&quot;l-Scalar-Plain&quot;&gt;title&lt;/span&gt;&lt;span class=&quot;p-Indicator&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;l-Scalar-Plain&quot;&gt;A really simple title&lt;/span&gt;
+&lt;span class=&quot;l-Scalar-Plain&quot;&gt;quote&lt;/span&gt;&lt;span class=&quot;p-Indicator&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;&amp;quot;You&lt;/span&gt;&lt;span class=&quot;nv&quot;&gt; &lt;/span&gt;&lt;span class=&quot;s&quot;&gt;must&lt;/span&gt;&lt;span class=&quot;nv&quot;&gt; &lt;/span&gt;&lt;span class=&quot;s&quot;&gt;jump&lt;/span&gt;&lt;span class=&quot;nv&quot;&gt; &lt;/span&gt;&lt;span class=&quot;s&quot;&gt;of&lt;/span&gt;&lt;span class=&quot;nv&quot;&gt; &lt;/span&gt;&lt;span class=&quot;s&quot;&gt;a&lt;/span&gt;&lt;span class=&quot;nv&quot;&gt; &lt;/span&gt;&lt;span class=&quot;s&quot;&gt;cliff&lt;/span&gt;&lt;span class=&quot;nv&quot;&gt; &lt;/span&gt;&lt;span class=&quot;s&quot;&gt;before&lt;/span&gt;&lt;span class=&quot;nv&quot;&gt; &lt;/span&gt;&lt;span class=&quot;s&quot;&gt;you&lt;/span&gt;&lt;span class=&quot;nv&quot;&gt; &lt;/span&gt;&lt;span class=&quot;s&quot;&gt;can&lt;/span&gt;&lt;span class=&quot;nv&quot;&gt; &lt;/span&gt;&lt;span class=&quot;s&quot;&gt;start&lt;/span&gt;&lt;span class=&quot;nv&quot;&gt; &lt;/span&gt;&lt;span class=&quot;s&quot;&gt;living.&amp;quot;&lt;/span&gt;
+&lt;span class=&quot;nn&quot;&gt;---&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
+
+&lt;p&gt;You can change the default quotation in the &lt;code&gt;_config.yml&lt;/code&gt; file using the variable &lt;code&gt;quote&lt;/code&gt;.&lt;/p&gt;
+
+&lt;h3 id=&quot;typefix&quot;&gt;Typefix&lt;/h3&gt;
+
+&lt;p&gt;You can indent the first line of every paragraph by setting &lt;code&gt;indent: true&lt;/code&gt; in the yaml frontmatter.&lt;/p&gt;
+
+&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-yaml&quot; data-lang=&quot;yaml&quot;&gt;&lt;span class=&quot;nn&quot;&gt;---&lt;/span&gt;
+&lt;span class=&quot;l-Scalar-Plain&quot;&gt;layout&lt;/span&gt;&lt;span class=&quot;p-Indicator&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;l-Scalar-Plain&quot;&gt;post&lt;/span&gt;
+&lt;span class=&quot;l-Scalar-Plain&quot;&gt;typefix&lt;/span&gt;&lt;span class=&quot;p-Indicator&quot;&gt;:&lt;/span&gt;
+   &lt;span class=&quot;l-Scalar-Plain&quot;&gt;indent&lt;/span&gt;&lt;span class=&quot;p-Indicator&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;l-Scalar-Plain&quot;&gt;true&lt;/span&gt;
+&lt;span class=&quot;nn&quot;&gt;---&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
+
+&lt;p&gt;To make the text centered use &lt;code&gt;poetry: true&lt;/code&gt; in the yaml frontmatter like this.&lt;/p&gt;
+
+&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-yaml&quot; data-lang=&quot;yaml&quot;&gt;&lt;span class=&quot;nn&quot;&gt;---&lt;/span&gt;
+&lt;span class=&quot;l-Scalar-Plain&quot;&gt;layout&lt;/span&gt;&lt;span class=&quot;p-Indicator&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;l-Scalar-Plain&quot;&gt;post&lt;/span&gt;
+&lt;span class=&quot;l-Scalar-Plain&quot;&gt;typefix&lt;/span&gt;&lt;span class=&quot;p-Indicator&quot;&gt;:&lt;/span&gt; 
+   &lt;span class=&quot;l-Scalar-Plain&quot;&gt;poetry&lt;/span&gt;&lt;span class=&quot;p-Indicator&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;l-Scalar-Plain&quot;&gt;true&lt;/span&gt;
+&lt;span class=&quot;nn&quot;&gt;---&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
+
+&lt;p&gt;You can even combine both of them by,&lt;/p&gt;
+
+&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-yaml&quot; data-lang=&quot;yaml&quot;&gt;&lt;span class=&quot;nn&quot;&gt;---&lt;/span&gt;
+&lt;span class=&quot;l-Scalar-Plain&quot;&gt;layout&lt;/span&gt;&lt;span class=&quot;p-Indicator&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;l-Scalar-Plain&quot;&gt;post&lt;/span&gt;
+&lt;span class=&quot;l-Scalar-Plain&quot;&gt;typefix&lt;/span&gt;&lt;span class=&quot;p-Indicator&quot;&gt;:&lt;/span&gt;
+   &lt;span class=&quot;l-Scalar-Plain&quot;&gt;indent&lt;/span&gt;&lt;span class=&quot;p-Indicator&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;l-Scalar-Plain&quot;&gt;true&lt;/span&gt;
+   &lt;span class=&quot;l-Scalar-Plain&quot;&gt;poetry&lt;/span&gt;&lt;span class=&quot;p-Indicator&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;l-Scalar-Plain&quot;&gt;true&lt;/span&gt;
+&lt;span class=&quot;nn&quot;&gt;---&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
+
+&lt;h3 id=&quot;mathjax&quot;&gt;Mathjax&lt;/h3&gt;
+
+&lt;p&gt;Fairytale comes with support for mathjax, but only if you want it to. Add &lt;code&gt;mathjax: true&lt;/code&gt; like this,&lt;/p&gt;
+
+&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-yaml&quot; data-lang=&quot;yaml&quot;&gt;&lt;span class=&quot;nn&quot;&gt;---&lt;/span&gt;
+&lt;span class=&quot;l-Scalar-Plain&quot;&gt;layout&lt;/span&gt;&lt;span class=&quot;p-Indicator&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;l-Scalar-Plain&quot;&gt;post&lt;/span&gt;
+&lt;span class=&quot;l-Scalar-Plain&quot;&gt;mathjax&lt;/span&gt;&lt;span class=&quot;p-Indicator&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;l-Scalar-Plain&quot;&gt;true&lt;/span&gt;
+&lt;span class=&quot;nn&quot;&gt;---&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
+
+&lt;h2 id=&quot;other-stuff&quot;&gt;Other Stuff&lt;/h2&gt;
+
+&lt;p&gt;The rest is just your average Jekyll config settings. Nothing too crazy here…&lt;/p&gt;
+
+&lt;h3 id=&quot;includes&quot;&gt;_includes&lt;/h3&gt;
+
+&lt;p&gt;For the most part you can leave these as is since the author/owner details are pulled from &lt;code&gt;_config.yml&lt;/code&gt;. That said you’ll probably want to customize the copyright stuff in &lt;code&gt;footer.html&lt;/code&gt; to your liking.&lt;/p&gt;
+
+&lt;h3 id=&quot;adding-posts-and-pages&quot;&gt;Adding Posts and Pages&lt;/h3&gt;
+
+&lt;p&gt;There are two main content layouts: &lt;code&gt;post.html&lt;/code&gt; (for posts) and &lt;code&gt;page.html&lt;/code&gt; (for pages). Both have large &lt;strong&gt;feature images&lt;/strong&gt; that span the full-width of the screen, and both are meant for text heavy blog posts (or articles).&lt;/p&gt;
+
+&lt;h3 id=&quot;feature-images&quot;&gt;Feature Images&lt;/h3&gt;
+
+&lt;p&gt;A good rule of thumb is to keep feature images nice and wide so you don’t push the body text too far down. An image cropped around around 1024 x 256 pixels will keep file size down with an acceptable resolution for most devices.&lt;/p&gt;
+
+&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-yaml&quot; data-lang=&quot;yaml&quot;&gt;&lt;span class=&quot;l-Scalar-Plain&quot;&gt;image&lt;/span&gt;&lt;span class=&quot;p-Indicator&quot;&gt;:&lt;/span&gt;
+&lt;span class=&quot;c1&quot;&gt;# local image &lt;/span&gt;
+  &lt;span class=&quot;l-Scalar-Plain&quot;&gt;feature&lt;/span&gt;&lt;span class=&quot;p-Indicator&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;l-Scalar-Plain&quot;&gt;feature-image-filename.jpg&lt;/span&gt;
+&lt;span class=&quot;c1&quot;&gt;# link image&lt;/span&gt;
+  &lt;span class=&quot;l-Scalar-Plain&quot;&gt;feature&lt;/span&gt;&lt;span class=&quot;p-Indicator&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;&amp;quot;http(s)://image.domain.com/feature-image-filename.jpg&amp;quot;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
+
+&lt;p&gt;This makes the assumption that the feature image is in the &lt;em&gt;images&lt;/em&gt; folder unless it has a link address. To add a feature image to a post or page just include the filename in the front matter like so.
+You can “serve” images responsively with retina.js. All you need to do is have a file with @2x before the file type. That should be placed in the &lt;em&gt;images&lt;/em&gt; folder. You literally don’t have to do anything other than that. 2 copies. One is linked. That’s it.
+Ex:
+&lt;code&gt;cool-photo@2x.jpg&lt;/code&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;*There is a default feature image that will show up for and posts. It isn’t retina or anything. It’s just there in case you want one but forget &amp;lt;3&lt;/em&gt;&lt;/p&gt;
+
+&lt;h4 id=&quot;if-you-dont-want-a-feature-image&quot;&gt;If you don’t want a feature image&lt;/h4&gt;
+&lt;p&gt;…just say so in the front-matter. Go to your-post-name.md and make sure it has this guy up top.&lt;/p&gt;
+
+&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-yaml&quot; data-lang=&quot;yaml&quot;&gt;&lt;span class=&quot;l-Scalar-Plain&quot;&gt;layout&lt;/span&gt;&lt;span class=&quot;p-Indicator&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;l-Scalar-Plain&quot;&gt;post-no-feature&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
+
+&lt;h3 id=&quot;categories&quot;&gt;Categories&lt;/h3&gt;
+
+&lt;p&gt;In the sample &lt;code&gt;_posts&lt;/code&gt; folder you may have noticed &lt;code&gt;category: articles&lt;/code&gt; in the front matter. I like keeping all posts grouped in the same folder. If you decide to rename or add categories you will need to modify the permalink in &lt;code&gt;articles.md&lt;/code&gt; along with the filename (if renaming).&lt;/p&gt;
+
+&lt;p&gt;For example. Say you want to group all your posts under &lt;code&gt;blog/&lt;/code&gt; instead of &lt;code&gt;articles/&lt;/code&gt;. In your post add &lt;code&gt;category: blog&lt;/code&gt; to the front matter, rename or duplicate &lt;code&gt;articles.md&lt;/code&gt; to &lt;code&gt;blog.md&lt;/code&gt; and change the permalink in that file to &lt;code&gt;permalink: /blog/index.html&lt;/code&gt;.&lt;/p&gt;
+
+&lt;p&gt;If done correctly &lt;code&gt;/blog&lt;/code&gt; should be a page listing all the site’s posts.&lt;/p&gt;
+
+&lt;h2 id=&quot;license&quot;&gt;License&lt;/h2&gt;
+
+&lt;p&gt;This is free to use, fork, do whatever you want.&lt;/p&gt;
+
+  &lt;p&gt;&lt;a href=&quot;/read-me-now&quot;&gt;Read Me Now&lt;/a&gt; was originally published by Adrian Glitch at &lt;a href=&quot;&quot;&gt;Espresso Math&lt;/a&gt; on January 31, 2016.&lt;/p&gt;</content>
+</entry>
+
+
+<entry>
+  <title type="html"><![CDATA[Charles Kingsley's The Water-Babies]]></title>
+  <link rel="alternate" type="text/html" href="/charles-kingsley-water-babies" />
+  <id>/charles-kingsley-water-babies</id>
+  <published>2016-01-28T05:58:32-05:00</published>
+  <updated>2016-01-28T05:58:32-05:00</updated>
+  <author>
+    <name>Adrian Glitch</name>
+    <uri></uri>
+    <email>adrianglitch.auth@gmail.com</email>
+  </author>
+  <content type="html">&lt;p&gt;&lt;em&gt;O&lt;/em&gt;ne day Tom was going along the rocks in three-fanthom water, watching the pollock
+catch prawns, and the wrasses nibble barnacles off the rocks, shells and all, when he saw a round cage of green withes;  and inside it, looking very much ashamed of himself, sat his friend the lobster, twiddling his horns, instead of his thumbs.&lt;/p&gt;
+
+&lt;p&gt;“What, have you been naughty, and have they put you in the lock-up &lt;span class=&quot;question-mark&quot;&gt;?&lt;/span&gt;“asked Tom.&lt;/p&gt;
+
+&lt;p&gt;The Lobster felt a little indignant at such a notion, but he was too much depressed in spirits to argue; so he only said, “I can’t get out.”&lt;/p&gt;
+
+&lt;p&gt;“Why, did you get in &lt;span class=&quot;question-mark&quot;&gt;?&lt;/span&gt;”&lt;/p&gt;
+
+&lt;p&gt;“After that nasty piece of dead fish.”He had thought it looked and smelt very nice when he was outside, and so it did, for a lobster: but now he turned around and abused it because he was angry with himself.&lt;/p&gt;
+
+&lt;p&gt;“Where did you get in &lt;span class=&quot;question-mark&quot;&gt;?&lt;/span&gt; “&lt;/p&gt;
+
+&lt;p&gt;“Through that round hole at the top.”&lt;/p&gt;
+
+&lt;p&gt;“Then why don’t you get out throught it &lt;span class=&quot;question-mark&quot;&gt;?&lt;/span&gt; “&lt;/p&gt;
+
+&lt;p&gt;“Because I can’t,”and the lobster twiddled his horns more fiercely than ever, but he was forced to confess.&lt;/p&gt;
+
+&lt;p&gt;“I have jumped upwards, downwards, backwards and sideways, at least four thousand times ; and I can’t get out: I always get up underneath there, and can’t find the hole.”&lt;/p&gt;
+
+&lt;p&gt;“Stop a bit,”said Tom. “Turn your tail up to me, and I’ll pull you throught\ hindforemost, and then you won’t stick in the spikes.”&lt;/p&gt;
+
+&lt;p&gt;But the lobster was so stupid and clumsy that he couldn’t hit the hole in the lobster-pot. Like a great many fox-hunters, he was very sharp as long as he was in his own country; but as soon as they get out of it they lose their heads ; and so the lobster, so to speak, lost his tail.&lt;/p&gt;
+
+&lt;p&gt;Tom reached and crawled down the hole after him, till he caught hold of him; and then, as was to be expected, the clumsy lobster pulled him in head foremost.&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;But they had not got half the spikes away when they saw a great dark cloud over them ; and lo, and behold, it was the otter. How she did grin and grin.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;“Hullo ! here is a pretty business,”said Tom. “Now take you great claws, and break the points off those spikes, and then we shall both get out easily.”&lt;/p&gt;
+
+&lt;p&gt;“Dear me, I never thought of that,”said the lobster; “and after all the experience of life that I have had !”&lt;/p&gt;
+
+&lt;p&gt;You see, experience is of very little good unless a man, or a lobster, has wit enough to make use of it.&lt;/p&gt;
+
+&lt;p&gt;But they had not got half the spikes away when they saw a great dark cloud over them: and lo, and behold, it was the otter.&lt;/p&gt;
+
+&lt;p&gt;How she did grin and grin when she saw Tom. “Yar ! “said she, “you little meddlesome wretch, I have you now ! I will serve you out for telling the salmon where I was!”And she crawled all over the pot to get in.&lt;/p&gt;
+
+&lt;p&gt;Tom was horribly frightened, and still more frightened when she found the hole in the top, and squeezed herself right down through it, all eyes and teeth. But no sooner was her head inside than valiant Mr. Lobster caught her by the nose and held on.&lt;/p&gt;
+
+&lt;p&gt;And there they were all three in the post, rolling over and over, and very tight packin g it was. And the lobster tore at the otter, and the otter tore at the lobster, and both squeezed and thumped poor Tom till he had no breath left in his body ; and I don’t know what would have happened to him if he had not at lsst got on the otter’s back, and safe out of the hole.&lt;/p&gt;
+
+&lt;p&gt;He was right glad when he got out: but he would not desert his friend who had saved him; and the first time he saw his tail uppermost he caught hold of it, and pulled with all his might.&lt;/p&gt;
+
+&lt;p&gt;But the lobster would not let go.&lt;/p&gt;
+
+&lt;p&gt;“Come along,”said Tom; “don’t you see she is dead &lt;span class=&quot;question-mark&quot;&gt;?&lt;/span&gt;“And so she was, quite drowned and dead.&lt;/p&gt;
+
+&lt;p&gt;And that was the end of the wicked otter. but the lobster would not let go.&lt;/p&gt;
+
+&lt;p&gt;“Come along, you stupid old stick-in-the-mud,”crid Tom, “or the fisherman will catch you !”And that was true, for Tom felt someone above beginning to haul up the pot.&lt;/p&gt;
+
+&lt;p&gt;But the lobster would not let go.&lt;/p&gt;
+
+&lt;p&gt;Tom saw the fisherman haul him up to the boatside, and thought it was all up with him. But when Mr. Lobster saw the fisherman he gave such a furious and tremendous snap that he snapped out of his hand, and out of the pot, and safe into the sea. But he left his knobbed claw behind him; for it never came into his stupid head to let go after all, so he just shook his claw off as the easier method.&lt;/p&gt;
+
+  &lt;p&gt;&lt;a href=&quot;/charles-kingsley-water-babies&quot;&gt;Charles Kingsley's The Water-Babies&lt;/a&gt; was originally published by Adrian Glitch at &lt;a href=&quot;&quot;&gt;Espresso Math&lt;/a&gt; on January 28, 2016.&lt;/p&gt;</content>
+</entry>
+
+
+<entry>
+  <title type="html"><![CDATA[The Einstein Theory of Relativity]]></title>
+  <link rel="alternate" type="text/html" href="/the-einstein-theory-of-relativity" />
+  <id>/the-einstein-theory-of-relativity</id>
+  <published>2016-01-27T04:50:35-05:00</published>
+  <updated>2016-01-27T04:50:35-05:00</updated>
+  <author>
+    <name>Adrian Glitch</name>
+    <uri></uri>
+    <email>adrianglitch.auth@gmail.com</email>
+  </author>
+  <content type="html">&lt;p&gt;&lt;em&gt;T&lt;/em&gt;he total eclipse of the sun of May 29, re­sulted in a strik­ing con­fir­ma­tion of the new the­ory of the uni­ver­sal at­trac­tive power of grav­i­ta­tion de­vel­oped by Al­bert Ein­stein, and thus re­in­forced the con­vic­tion that the defin­ing of this the­ory is one of the most im­por­tant steps ever taken in the do­main of nat­ural sci­ence. In re­sponse to a re­quest by the ed­i­tor, I will at­tempt to con­tribute some­thing to its 6gen­eral ap­pre­ci­a­tion in the fol­low­ing lines.
+For cen­turies New­ton’s doc­trine of the at­trac­tion of grav­i­ta­tion has been the most promi­nent ex­am­ple of a the­ory of nat­ural sci­ence. Through the sim­plic­ity of its basic idea, an at­trac­tion be­tween two bod­ies pro­por­tion­ate to their mass and also pro­por­tion­ate to the square of the dis­tance; through the com­plete­ness with which it ex­plained so many of the pe­cu­liar­i­ties in the move­ment of the bod­ies mak­ing up the solar sys­tem; and, fi­nally, through its uni­ver­sal va­lid­ity, even in the case of the far-dis­tant plan­e­tary sys­tems, it com­pelled the ad­mi­ra­tion of all.&lt;/p&gt;
+
+&lt;p&gt;But, while the skill of the math­e­mati­cians was de­voted to mak­ing more exact cal­cu­la­tions of the con­se­quences to which it led, no real progress was made in the sci­ence of grav­i­ta­tion. It is true that the in­quiry was trans­ferred to the field of physics, fol­low­ing Cavendish’s suc­cess in demon­strat­ing the com­mon at­trac­tion be­tween bod­ies with which lab­o­ra­tory work can be done, but it al­ways was ev­i­dent that nat­ural phi­los­o­phy had no grip on the uni­ver­sal power of at­trac­tion. While in elec­tric ef­fects an in­flu­ence ex­er­cised by the mat­ter placed be­tween bod­ies was speed­ily ob­served—the start­ing-point of a new and fer­tile doc­trine of elec­tric­ity—in the case of grav­i­ta­tion not a trace of an in­flu­ence ex­er­cised by in­ter­me­di­ate mat­ter could ever be dis­cov­ered. It was, and re­mained, in­ac­ces­si­ble and un­change­able, with­out any con­nec­tion, ap­par­ently, with other phe­nom­ena of nat­ural phi­los­o­phy.&lt;/p&gt;
+
+&lt;p&gt;Ein­stein has put an end to this iso­la­tion; it is now well es­tab­lished that grav­i­ta­tion af­fects not only mat­ter, but also light. Thus strength­ened in the faith that his the­ory al­ready has in­spired, we may as­sume with him that there is not a sin­gle phys­i­cal or chem­i­cal phe­nom­e­non—which does not feel, al­though very prob­a­bly in an un­no­tice­able de­gree, the in­flu­ence of grav­i­ta­tion, and that, on the other side, the at­trac­tion ex­er­cised by a body is lim­ited in the first place by the quan­tity of mat­ter it con­tains and also, to some de­gree, by mo­tion and by the phys­i­cal and chem­i­cal con­di­tion in which it moves.&lt;/p&gt;
+
+&lt;p&gt;It is com­pre­hen­si­ble that a per­son could not have ar­rived at such a far-reach­ing change of view by con­tin­u­ing to fol­low the old beaten paths, but only by in­tro­duc­ing some sort of new idea. In­deed, Ein­stein ar­rived at his the­ory through a train of thought of great orig­i­nal­ity. Let me try to re­state it in con­cise terms.&lt;/p&gt;
+
+  &lt;p&gt;&lt;a href=&quot;/the-einstein-theory-of-relativity&quot;&gt;The Einstein Theory of Relativity&lt;/a&gt; was originally published by Adrian Glitch at &lt;a href=&quot;&quot;&gt;Espresso Math&lt;/a&gt; on January 27, 2016.&lt;/p&gt;</content>
+</entry>
+
+
+<entry>
+  <title type="html"><![CDATA[Jane Eyre]]></title>
+  <link rel="alternate" type="text/html" href="/jane-eyre-conclution" />
+  <id>/jane-eyre-conclution</id>
+  <published>2016-01-27T04:44:12-05:00</published>
+  <updated>2016-01-27T04:44:12-05:00</updated>
+  <author>
+    <name>Adrian Glitch</name>
+    <uri></uri>
+    <email>adrianglitch.auth@gmail.com</email>
+  </author>
+  <content type="html">&lt;p&gt;&lt;em&gt;R&lt;/em&gt;eader, I married him. A quiet wed­ding we had: he and I, the par­son and clerk, were alone pre­sent. When we got back from church, I went into the kitchen of the manor-house, where Mary was cook­ing the din­ner and John clean­ing the knives, and I said — “Mary, I have been mar­ried to Mr. Rochester this morn­ing.” The house­keeper and her hus­band were both of that de­cent phleg­matic order of peo­ple, to whom one may at any time safely com­mu­ni­cate a re­mark­able piece of news with­out in­cur­ring the dan­ger of hav­ing one’s ears pierced by some shrill ejac­u­la­tion, and sub­se­quently stunned by a tor­rent of wordy won­der­ment. Mary did look up, and she did stare at me: the ladle with which she was bast­ing a pair of chick­ens roast­ing at the fire, did for some three min­utes hang sus­pended in air; and for the same space of time John’s knives also had rest from the pol­ish­ing process: but Mary, bend­ing again over the roast, said only— “Have you, Miss? Well, for sure!” A short time after she pur­sued—”I seed you go out with the mas­ter, but I didn’t know you were gone to church to be wed;” and she basted away.&lt;/p&gt;
+
+&lt;p&gt;John, when I turned to him, was grin­ning from ear to ear. “I telled Mary how it would be,” he said: “I knew what Mr. Ed­ward” (John was an old ser­vant, and had known his mas­ter when he was the cadet of the house, there­fore, he often gave him his Chris­t­ian name)—”I knew what Mr. Ed­ward would do; and I was cer­tain he would not wait long nei­ther: and he’s done right, for aught I know. I wish you joy, Miss!” and he po­litely pulled his fore­lock. “Thank you, John. Mr. Rochester told me to give you and Mary this.” I put into his hand a five-pound note. With­out wait­ing to hear more, I left the kitchen. In pass­ing the door of that sanc­tum some time after, I caught the words - “She’ll hap­pen do bet­ter for him nor ony o’t’ grand ladies.” And again, “If she ben’t one o’ th’ hand­somest, she’s noan faal and varry good-na­tured; and i’ his een she’s fair beau­ti­ful, ony­body may see that.” I wrote to Moor House and to Cam­bridge im­me­di­ately, to say what I had done: fully ex­plain­ing also why I had thus acted.&lt;/p&gt;
+
+&lt;p&gt;Diana and Mary ap­proved the step un­re­servedly. Diana an­nounced that she would just give me time to get over the hon­ey­moon, and then she would come and see me. “She had bet­ter not wait till then, Jane,” said Mr. Rochester, when I read her let­ter to him; “if she does, she will be too late, for our hon­ey­moon will shine our life long: its beams will only fade over your grave or mine.” How St. John re­ceived the news, I don’t know: he never an­swered the let­ter in which I com­mu­ni­cated it: yet six months after he wrote to me, with­out, how­ever, men­tion­ing Mr. Rochester’s name or al­lud­ing to my mar­riage. His let­ter was then calm, and, though very se­ri­ous, kind. He has main­tained a reg­u­lar, though not fre­quent, cor­re­spon­dence ever since: he hopes I am happy, and trusts I am not of those who live with­out God in the world, and only mind earthly things.&lt;/p&gt;
+
+&lt;p&gt;You have not quite for­got­ten lit­tle Adele, have you, reader? I had not; I soon asked and ob­tained leave of Mr. Rochester, to go and see her at the school where he had placed her. Her fran­tic joy at be­hold­ing me again moved me much. She looked pale and thin: she said she was not happy.&lt;/p&gt;
+
+  &lt;p&gt;&lt;a href=&quot;/jane-eyre-conclution&quot;&gt;Jane Eyre&lt;/a&gt; was originally published by Adrian Glitch at &lt;a href=&quot;&quot;&gt;Espresso Math&lt;/a&gt; on January 27, 2016.&lt;/p&gt;</content>
+</entry>
+
+
+<entry>
+  <title type="html"><![CDATA[Easily Digestible Mathematical Magazines]]></title>
+  <link rel="alternate" type="text/html" href="/mathematics/digestable-math-magazines" />
+  <id>/mathematics/digestable-math-magazines</id>
+  <published>2015-12-27T00:16:47-05:00</published>
+  <updated>2015-12-27T00:16:47-05:00</updated>
+  <author>
+    <name>Adrian Glitch</name>
+    <uri></uri>
+    <email>adrianglitch.auth@gmail.com</email>
+  </author>
+  <content type="html">&lt;p&gt;&lt;em&gt;L&lt;/em&gt;ets get things straight. I hate lists. There’s so many lists on the Internet that I when I see another one, I blow my top. Don’t get me wrong. Lists are really good at organizing information. But it’s in bad taste. That’s why I promised myself I won’t write another list until their was a good reason for it. This qualifies.&lt;/p&gt;
+
+&lt;p&gt;Mathematical magazines are really hard to find. I could find precious few online. In a way that’s understandable. Mathematics sure is not popular. And it sure won’t sell half as fast as say a list titled ‘Lady Gaga’s Top 10 Tattoos’. But I don’t intend to write click baits that seem to be the dominant lifeforms on the Internet. It’s a matter of principle.&lt;/p&gt;
+
+&lt;h2 id=&quot;crux-mathematicorum&quot;&gt;CRUX Mathematicorum&lt;/h2&gt;
+
+&lt;p&gt;Brought out by the Canadian Mathematical CRUX magazine is a long running mathematical problem solving magazine. The articles are culled from national and international math competitions. More importantly they bring you questions from lesser known competitions like the one I have open before me – The Swedish Junior Mathematics Competition. The questions range from high school level to a quite challenging level. They maintain an excellent website &lt;a href=&quot;https://cms.math.ca/crux&quot;&gt;here&lt;/a&gt;. They also provide a couple of years, old magazines free as downloadable PDF files. The magazines rarely have much article content except for a monthly book review.&lt;/p&gt;
+
+&lt;h2 id=&quot;plus-magazine&quot;&gt;Plus Magazine&lt;/h2&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://plus.maths.org&quot;&gt;Plus magazine&lt;/a&gt; is an online magazine which I can only describe as Popular Science meets mathematics. It started life as a part of the Millennium Mathematics Project and is supported by Cambridge University. If I was allowed to say only one thing, I’d say the magazine has credibility. Each article is written by experts in their chosen fields. The breadth of content expressed is quite extensive. They also bring out podcasts. I think everyone should read Plus. Plus helped me realize how big the mathematical world really is. I’d definitely vote this as a must read for anybody.&lt;/p&gt;
+
+&lt;h2 id=&quot;american-mathematical-monthly&quot;&gt;American Mathematical Monthly&lt;/h2&gt;
+
+&lt;p&gt;AMM was fist published in 1894 by the American Mathematical Society. The magazine is widely read and has an impressive track record. They focus on clear exposition and content that is widely accessible above all else. You can freely download selected articles from the magazine for free at the &lt;a href=&quot;http://www.maa.org/press/periodicals/american-mathematical-monthly/jstor-all-stars-emthe-american-mathematical-monthlyem&quot;&gt;JSTOR All-Star&lt;/a&gt; project. According to JSTOR, the American Mathematical Monthly is the most widely read mathematical journal in the world. Definitely worth a shot.&lt;/p&gt;
+
+&lt;h2 id=&quot;pi-in-the-sky&quot;&gt;Pi in the Sky&lt;/h2&gt;
+
+&lt;p&gt;There are actually two magazines with the name Pi in the Sky, both published by the Pacific Institute of Mathematics. One of these days I’ll have to ring them up and ask them why there are two magazines with the same name and the same general audience. The better one is hosted at the University of Alberta &lt;a href=&quot;https://www.math.ualberta.ca/pi/&quot;&gt;here&lt;/a&gt;. Each month they do a series of articles on a similar issues plus interviews and book reviews. The good thing is that the magazine is freely downloadable. Meanwhile the other Pi in the sky is hosted at the Pacific Insitute for the Mathematical Science &lt;a href=&quot;http://www.pims.math.ca/resources/publications/pi-sky&quot;&gt;here&lt;/a&gt;. This version of Pi in the Sky is meant for high school children, I think because their content is very simple although they do manage to have some interesting articles from time to time. They are also freely available for download.&lt;/p&gt;
+
+&lt;h2 id=&quot;afterthought&quot;&gt;Afterthought&lt;/h2&gt;
+
+&lt;p&gt;That should keep you occupied for a couple of days. They give me a lot of new ideas. I have pointedly ignored blogs on mathematics because at the end of the day they’re just blogs – not professional publications. They just don’t have the weight of authority behind them that these magazines have. I’ll be enabling  comments here because I’d like more people to suggest new material so that I can add them above.&lt;/p&gt;
+
+  &lt;p&gt;&lt;a href=&quot;/mathematics/digestable-math-magazines&quot;&gt;Easily Digestible Mathematical Magazines&lt;/a&gt; was originally published by Adrian Glitch at &lt;a href=&quot;&quot;&gt;Espresso Math&lt;/a&gt; on December 27, 2015.&lt;/p&gt;</content>
+</entry>
+
+
+<entry>
+  <title type="html"><![CDATA[I Just Saw Spectre]]></title>
+  <link rel="alternate" type="text/html" href="/opinion-pieces/spectre-james-bond" />
+  <id>/opinion-pieces/spectre-james-bond</id>
+  <published>2015-11-22T00:16:47-05:00</published>
+  <updated>2015-11-22T00:16:47-05:00</updated>
+  <author>
+    <name>Adrian Glitch</name>
+    <uri></uri>
+    <email>adrianglitch.auth@gmail.com</email>
+  </author>
+  <content type="html">&lt;p&gt;&lt;em&gt;S&lt;/em&gt;pectre is the latest in the decade old James Bond franchise. Directed by Sam Mendes the movie stars Daniel Craig as 007 and Lea Seydoux as Madeleine Swann. After watching the movie I am both satisfied and dissatisfied. Believe me the trailer showed you most of the better sequences. The closest this movie gets to Skyfall is the scene at L’American where Bond is drunk and talks to a mice. The best thing I liked about Daniel Craig 007 was that he spoke very little and his smiles were always around his eyes – a cool and detached smile. Now we have Daniel Craig trying to act like Pierce Brosnan and I don’t like it. I think that Spectre, the secret organization was destroyed prematurely. The villain Oberhauser is not a James Bond villain at all. James Bond villains are supposed to be charming, sadistic, cunning and fame boyish. Raoul Silva in Skyfall was one hell of a villain, like Scaramanga in the Man with the Golden Gun. Oberhauser has non of those redeeming qualities and is poorly executed. I think we do have somewhat of a good start with the new M but I really do miss Judi Dench. She was the best M and brought a motherly sort of affection and humanity to the franchise.. I didn’t like how Moneypenny wasn’t used that much despite having huge potential although Q is there a lot. The character of Dr Swann is intriguing and was one huge redeeming quality in an otherwise bland film. The plot basically involves Spectre tying up with C, the chief of joint intelligence so as to control all the world’s information. At the end of the day that should have been a great story for a James Bond movie. You know it’s not when M actually starts saying lines like this, emphasising each word,&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;“A licence to kill also means a licence not to kill.”&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;Really M that sounds cheesy. Try looking in a mirror and say that. One of the only three women in this film, Lucia Sciarra is a promising character but she is there all too briefly. Bond saves her life and sets her up to go to America and she gets there safe. I can’t believe they did that. Every time James Bond saves someone’s life and sends them to a safehouse they die. Why is she an exception&lt;span class=&quot;question-mark&quot;&gt;?&lt;/span&gt;. A lot of things are left unexplained like why Oberhauser does what he does. Why did the super cool Spectre base inside a crater explode&lt;span class=&quot;question-mark&quot;&gt;?&lt;/span&gt; Why didn’t the movie end there instead of going back to London&lt;span class=&quot;question-mark&quot;&gt;?&lt;/span&gt; When has a good James Bond movie ever ended in grimy old London&lt;span class=&quot;question-mark&quot;&gt;?&lt;/span&gt;&lt;/p&gt;
+
+&lt;p&gt;But on the positive side, the part where Bond does a barrel roll on a helicopter above Mexico city is really intense. The film has the scariest title song sequence – creepy and gross at the same time. So I guess this is bye bye Daniel Craig. I wonder who the next bond will be.&lt;/p&gt;
+
+  &lt;p&gt;&lt;a href=&quot;/opinion-pieces/spectre-james-bond&quot;&gt;I Just Saw Spectre&lt;/a&gt; was originally published by Adrian Glitch at &lt;a href=&quot;&quot;&gt;Espresso Math&lt;/a&gt; on November 22, 2015.&lt;/p&gt;</content>
+</entry>
+
+
+<entry>
+  <title type="html"><![CDATA[Test Post]]></title>
+  <link rel="alternate" type="text/html" href="/articles/test-post" />
+  <id>/articles/test-post</id>
+  <published>2013-08-17T00:00:00-04:00</published>
+  <updated>2013-08-17T00:00:00-04:00</updated>
+  <author>
+    <name>Adrian Glitch</name>
+    <uri></uri>
+    <email>adrianglitch.auth@gmail.com</email>
+  </author>
+  <content type="html">&lt;p&gt;&lt;em&gt;S&lt;/em&gt;horeditch bicycle rights anim, flexitarian laboris put a bird on it vinyl cupidatat narwhal. Hashtag artisan skateboard, flannel Bushwick nesciunt salvia aute fixie do plaid post-ironic dolor McSweeney’s. Cliche pour-over chambray nulla four loko skateboard sapiente hashtag.&lt;/p&gt;
+
+&lt;p&gt;Vero laborum commodo occupy. Semiotics voluptate mumblecore pug. Cosby sweater ullamco quinoa ennui assumenda, sapiente occupy delectus lo-fi. Ea fashion axe Marfa cillum aliquip. Retro Bushwick keytar cliche. Before they sold out sustainable gastropub Marfa readymade, ethical Williamsburg skateboard brunch qui consectetur gentrify semiotics. Mustache cillum irony, fingerstache magna pour-over keffiyeh tousled selfies.&lt;/p&gt;
+
+
+  &lt;p&gt;&lt;a href=&quot;/articles/test-post&quot;&gt;Test Post&lt;/a&gt; was originally published by Adrian Glitch at &lt;a href=&quot;&quot;&gt;Espresso Math&lt;/a&gt; on August 17, 2013.&lt;/p&gt;</content>
+</entry>
+
+
+<entry>
+  <title type="html"><![CDATA[Image in Post]]></title>
+  <link rel="alternate" type="text/html" href="/articles/the-little-prince" />
+  <id>/articles/the-little-prince</id>
+  <published>2013-08-05T00:00:00-04:00</published>
+  <updated>2013-08-05T00:00:00-04:00</updated>
+  <author>
+    <name>Adrian Glitch</name>
+    <uri></uri>
+    <email>adrianglitch.auth@gmail.com</email>
+  </author>
+  <content type="html">&lt;blockquote&gt;
+  &lt;p&gt;“Once when I was six years old I saw a magniﬁcent picture in a book, called
+True Stories from Nature, about the primeval forest.”&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;It was a picture of a boa constrictor in the act of swallowing an animal. Here is a copy of the drawing:&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/images/money.jpg&quot; alt=&quot;Drawing A&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;In the book it said: “Boa constrictors swallow their prey whole, without
+chewing it. After that they are not able to move, and they sleep through the
+six months that they need for digestion.”&lt;/p&gt;
+
+&lt;p&gt;I pondered deeply, then, over the adventures of the jungle. And after some
+work with a colored pencil I succeeded in making my ﬁrst drawing. 
+My Drawing Number One. It looked like this:&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/images/sticker-mule.jpg&quot; alt=&quot;Drawing Number One&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;I showed my masterpiece to the grown-ups, and asked them whether the
+drawing frightened them.&lt;/p&gt;
+
+&lt;p&gt;But they answered: “Frighten? Why should any one be frightened by a
+hat?”&lt;/p&gt;
+
+&lt;p&gt;My drawing was not a picture of a hat. It was a picture of a boa constrictor
+digesting an elephant. But since the grown-ups were not able to understand it,
+I made another drawing: I drew the inside of the boa constrictor, so that the
+grown-ups could see it clearly. They always need to have things explained.&lt;/p&gt;
+
+  &lt;p&gt;&lt;a href=&quot;/articles/the-little-prince&quot;&gt;Image in Post&lt;/a&gt; was originally published by Adrian Glitch at &lt;a href=&quot;&quot;&gt;Espresso Math&lt;/a&gt; on August 05, 2013.&lt;/p&gt;</content>
+</entry>
+
+
+<entry>
+  <title type="html"><![CDATA[Post and Feature Image]]></title>
+  <link rel="alternate" type="text/html" href="/articles/post-with-feature" />
+  <id>/articles/post-with-feature</id>
+  <published>2013-08-05T00:00:00-04:00</published>
+  <updated>2013-08-05T00:00:00-04:00</updated>
+  <author>
+    <name>Adrian Glitch</name>
+    <uri></uri>
+    <email>adrianglitch.auth@gmail.com</email>
+  </author>
+  <content type="html">&lt;p&gt;&lt;em&gt;“W&lt;/em&gt;henever you feel like criticizing any one,” he told me, “just remember that all the people in this world haven’t had the advantages that you’ve had.”&lt;/p&gt;
+
+&lt;p&gt;He didn’t say any more, but we’ve always been unusually communicative in a reserved way, and I understood that he meant a great deal more than that. In consequence, I’m inclined to reserve all judgments, a habit that has opened up many curious natures to me and also made me the victim of not a few veteran bores. The abnormal mind is quick to detect and attach itself to this quality when it appears in a normal person, and so it came about that in college I was unjustly accused of being a politician, because I was privy to the secret griefs of wild, unknown men. Most of the confidences were unsought — frequently I have feigned sleep, preoccupation, or a hostile levity when I realized by some unmistakable sign that an intimate revelation was quivering on the horizon; for the intimate revelations of young men, or at least the terms in which they express them, are usually plagiaristic and marred by obvious suppressions. Reserving judgments is a matter of infinite hope. I am still a little afraid of missing something if I forget that, as my father snobbishly suggested, and I snobbishly repeat, a sense of the fundamental decencies is parcelled out unequally at birth.&lt;/p&gt;
+
+&lt;p&gt;And, after boasting this way of my tolerance, I come to the admission that it has a limit. Conduct may be founded on the hard rock or the wet marshes, but after a certain point I don’t care what it’s founded on. When I came back from the East last autumn I felt that I wanted the world to be in uniform and at a sort of moral attention forever; I wanted no more riotous excursions with privileged glimpses into the human heart. Only Gatsby, the man who gives his name to this book, was exempt from my reaction — Gatsby, who represented everything for which I have an unaffected scorn. If personality is an unbroken series of successful gestures, then there was something gorgeous about him, some heightened sensitivity to the promises of life, as if he were related to one of those intricate machines that register earthquakes ten thousand miles away. This responsiveness had nothing to do with that flabby impressionability which is dignified under the name of the “creative temperament.”— it was an extraordinary gift for hope, a romantic readiness such as I have never found in any other person and which it is not likely I shall ever find again. No — Gatsby turned out all right at the end; it is what preyed on Gatsby, what foul dust floated in the wake of his dreams that temporarily closed out my interest in the abortive sorrows and short-winded elations of men.
+My family have been prominent, well-to-do people in this Middle Western city for three generations. The Carraways are something of a clan, and we have a tradition that we’re descended from the Dukes of Buccleuch, but the actual founder of my line was my grandfather’s brother, who came here in fifty-one, sent a substitute to the Civil War, and started the wholesale hardware business that my father carries on to-day.&lt;/p&gt;
+
+&lt;p&gt;I never saw this great-uncle, but I’m supposed to look like him — with special reference to the rather hard-boiled painting that hangs in father’s office. I graduated from New Haven in 1915, just a quarter of a century after my father, and a little later I participated in that delayed Teutonic migration known as the Great War. I enjoyed the counter-raid so thoroughly that I came back restless. Instead of being the warm centre of the world, the Middle West now seemed like the ragged edge of the universe — so I decided to go East and learn the bond business. Everybody I knew was in the bond business, so I supposed it could support one more single man. All my aunts and uncles talked it over as if they were choosing a prep school for me, and finally said, “Why — ye — es,” with very grave, hesitant faces. Father agreed to finance me for a year, and after various delays I came East, permanently, I thought, in the spring of twenty-two.&lt;/p&gt;
+
+&lt;p&gt;The practical thing was to find rooms in the city, but it was a warm season, and I had just left a country of wide lawns and friendly trees, so when a young man at the office suggested that we take a house together in a commuting town, it sounded like a great idea. He found the house, a weather-beaten cardboard bungalow at eighty a month, but at the last minute the firm ordered him to Washington, and I went out to the country alone. I had a dog — at least I had him for a few days until he ran away — and an old Dodge and a Finnish woman, who made my bed and cooked breakfast and muttered Finnish wisdom to herself over the electric stove.&lt;/p&gt;
+
+&lt;p&gt;It was lonely for a day or so until one morning some man, more recently arrived than I, stopped me on the road.&lt;/p&gt;
+
+&lt;p&gt;“How do you get to West Egg village?” he asked helplessly.&lt;/p&gt;
+
+&lt;p&gt;I told him. And as I walked on I was lonely no longer. I was a guide, a pathfinder, an original settler. He had casually conferred on me the freedom of the neighborhood.
+And so with the sunshine and the great bursts of leaves growing on the trees, just as things grow in fast movies, I had that familiar conviction that life was beginning over again with the summer.&lt;/p&gt;
+
+&lt;p&gt;There was so much to read, for one thing, and so much fine health to be pulled down out of the young breath-giving air. I bought a dozen volumes on banking and credit and investment securities, and they stood on my shelf in red and gold like new money from the mint, promising to unfold the shining secrets that only Midas and Morgan and Maecenas knew. And I had the high intention of reading many other books besides. I was rather literary in college — one year I wrote a series of very solemn and obvious editorials for the “Yale News.”— and now I was going to bring back all such things into my life and become again that most limited of all specialists, the “well-rounded man.” This isn’t just an epigram — life is much more successfully looked at from a single window, after all.&lt;/p&gt;
+
+&lt;p&gt;It was a matter of chance that I should have rented a house in one of the strangest communities in North America. It was on that slender riotous island which extends itself due east of New York — and where there are, among other natural curiosities, two unusual formations of land. Twenty miles from the city a pair of enormous eggs, identical in contour and separated only by a courtesy bay, jut out into the most domesticated body of salt water in the Western hemisphere, the great wet barnyard of Long Island Sound. They are not perfect ovals — like the egg in the Columbus story, they are both crushed flat at the contact end — but their physical resemblance must be a source of perpetual confusion to the gulls that fly overhead. To the wingless a more arresting phenomenon is their dissimilarity in every particular except shape and size.
+I lived at West Egg, the — well, the less fashionable of the two, though this is a most superficial tag to express the bizarre and not a little sinister contrast between them. My house was at the very tip of the egg, only fifty yards from the Sound, and squeezed between two huge places that rented for twelve or fifteen thousand a season. The one on my right was a colossal affair by any standard — it was a factual imitation of some Hotel de Ville in Normandy, with a tower on one side, spanking new under a thin beard of raw ivy, and a marble swimming pool, and more than forty acres of lawn and garden. It was Gatsby’s mansion. Or, rather, as I didn’t know Mr. Gatsby, it was a mansion inhabited by a gentleman of that name. My own house was an eyesore, but it was a small eyesore, and it had been overlooked, so I had a view of the water, a partial view of my neighbor’s lawn, and the consoling proximity of millionaires — all for eighty dollars a month.&lt;/p&gt;
+
+  &lt;p&gt;&lt;a href=&quot;/articles/post-with-feature&quot;&gt;Post and Feature Image&lt;/a&gt; was originally published by Adrian Glitch at &lt;a href=&quot;&quot;&gt;Espresso Math&lt;/a&gt; on August 05, 2013.&lt;/p&gt;</content>
+</entry>
+
+
+<entry>
+  <title type="html"><![CDATA[A Longform Post to Cogitate]]></title>
+  <link rel="alternate" type="text/html" href="/articles/longform-post" />
+  <id>/articles/longform-post</id>
+  <published>2013-08-05T00:00:00-04:00</published>
+  <updated>2013-08-05T00:00:00-04:00</updated>
+  <author>
+    <name>Adrian Glitch</name>
+    <uri></uri>
+    <email>adrianglitch.auth@gmail.com</email>
+  </author>
+  <content type="html">&lt;p&gt;&lt;em&gt;S&lt;/em&gt;horeditch bicycle rights anim, flexitarian laboris put a bird on it vinyl cupidatat narwhal. Hashtag artisan skateboard, flannel Bushwick nesciunt salvia aute fixie do plaid post-ironic dolor McSweeney’s. Cliche pour-over chambray nulla four loko skateboard sapiente hashtag.&lt;/p&gt;
+
+&lt;p&gt;Vero laborum commodo occupy. Semiotics voluptate mumblecore pug. Cosby sweater ullamco quinoa ennui assumenda, sapiente occupy delectus lo-fi. Ea fashion axe Marfa cillum aliquip. Retro Bushwick keytar cliche. Before they sold out sustainable gastropub Marfa readymade, ethical Williamsburg skateboard brunch qui consectetur gentrify semiotics. Mustache cillum irony, fingerstache magna pour-over keffiyeh tousled selfies.&lt;/p&gt;
+
+&lt;h2 id=&quot;cupidatat-90s-lo-fi-authentic-try-hard&quot;&gt;Cupidatat 90’s lo-fi authentic try-hard&lt;/h2&gt;
+
+&lt;p&gt;In pug Portland incididunt mlkshk put a bird on it vinyl quinoa. Terry Richardson shabby chic +1, scenester Tonx excepteur tempor fugiat voluptate fingerstache aliquip nisi next level. Farm-to-table hashtag Truffaut, Odd Future ex meggings gentrify single-origin coffee try-hard 90’s.&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Sartorial hoodie&lt;/li&gt;
+  &lt;li&gt;Labore viral forage&lt;/li&gt;
+  &lt;li&gt;Tote bag selvage&lt;/li&gt;
+  &lt;li&gt;DIY exercitation et id ugh tumblr church-key&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Incididunt umami sriracha, ethical fugiat VHS ex assumenda yr irure direct trade. Marfa Truffaut bicycle rights, kitsch placeat Etsy kogi asymmetrical. Beard locavore flexitarian, kitsch photo booth hoodie plaid ethical readymade leggings yr.&lt;/p&gt;
+
+&lt;p&gt;Aesthetic odio dolore, meggings disrupt qui readymade stumptown brunch Terry Richardson pour-over gluten-free. Banksy american apparel in selfies, biodiesel flexitarian organic meh wolf quinoa gentrify banjo kogi. Readymade tofu ex, scenester dolor umami fingerstache occaecat fashion axe Carles jean shorts minim. Keffiyeh fashion axe nisi Godard mlkshk dolore. Lomo you probably haven’t heard of them eu non, Odd Future Truffaut pug keytar meggings McSweeney’s Pinterest cred. Etsy literally aute esse, eu bicycle rights qui meggings fanny pack. Gentrify leggings pug flannel duis.&lt;/p&gt;
+
+&lt;h2 id=&quot;forage-occaecat-cardigan-qui&quot;&gt;Forage occaecat cardigan qui&lt;/h2&gt;
+
+&lt;p&gt;Fashion axe hella gastropub lo-fi kogi 90’s aliquip +1 veniam delectus tousled. Cred sriracha locavore gastropub kale chips, iPhone mollit sartorial. Anim dolore 8-bit, pork belly dolor photo booth aute flannel small batch. Dolor disrupt ennui, tattooed whatever salvia Banksy sartorial roof party selfies raw denim sint meh pour-over. Ennui eu cardigan sint, gentrify iPhone cornhole.&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;Whatever velit occaecat quis deserunt gastropub, leggings elit tousled roof party 3 wolf moon kogi pug blue bottle ea. Fashion axe shabby chic Austin quinoa pickled laborum bitters next level, disrupt deep v accusamus non fingerstache.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;Tote bag asymmetrical elit sunt. Occaecat authentic Marfa, hella McSweeney’s next level irure veniam master cleanse. Sed hoodie letterpress artisan wolf leggings, 3 wolf moon commodo ullamco. Anim occupy ea labore Terry Richardson. Tofu ex master cleanse in whatever pitchfork banh mi, occupy fugiat fanny pack Austin authentic. Magna fugiat 3 wolf moon, labore McSweeney’s sustainable vero consectetur. Gluten-free disrupt enim, aesthetic fugiat jean shorts trust fund keffiyeh magna try-hard.&lt;/p&gt;
+
+&lt;h2 id=&quot;hoodie-duis&quot;&gt;Hoodie Duis&lt;/h2&gt;
+
+&lt;p&gt;Actually salvia consectetur, hoodie duis lomo YOLO sunt sriracha. Aute pop-up brunch farm-to-table odio, salvia irure occaecat. Sriracha small batch literally skateboard. Echo Park nihil hoodie, aliquip forage artisan laboris. Trust fund reprehenderit nulla locavore. Stumptown raw denim kitsch, keffiyeh nulla twee dreamcatcher fanny pack ullamco 90’s pop-up est culpa farm-to-table. Selfies 8-bit do pug odio.&lt;/p&gt;
+
+&lt;h3 id=&quot;thundercats-ho&quot;&gt;Thundercats Ho!&lt;/h3&gt;
+
+&lt;p&gt;Fingerstache thundercats Williamsburg, deep v scenester Banksy ennui vinyl selfies mollit biodiesel duis odio pop-up. Banksy 3 wolf moon try-hard, sapiente enim stumptown deep v ad letterpress. Squid beard brunch, exercitation raw denim yr sint direct trade. Raw denim narwhal id, flannel DIY McSweeney’s seitan. Letterpress artisan bespoke accusamus, meggings laboris consequat Truffaut qui in seitan. Sustainable cornhole Schlitz, twee Cosby sweater banh mi deep v forage letterpress flannel whatever keffiyeh. Sartorial cred irure, semiotics ethical sed blue bottle nihil letterpress.&lt;/p&gt;
+
+&lt;p&gt;Occupy et selvage squid, pug brunch blog nesciunt hashtag mumblecore skateboard yr kogi. Ugh small batch swag four loko. Fap post-ironic qui tote bag farm-to-table american apparel scenester keffiyeh vero, swag non pour-over gentrify authentic pitchfork. Schlitz scenester lo-fi voluptate, tote bag irony bicycle rights pariatur vero Vice freegan wayfarers exercitation nisi shoreditch. Chambray tofu vero sed. Street art swag literally leggings, Cosby sweater mixtape PBR lomo Banksy non in pitchfork ennui McSweeney’s selfies. Odd Future Banksy non authentic.&lt;/p&gt;
+
+&lt;p&gt;Aliquip enim artisan dolor post-ironic. Pug tote bag Marfa, deserunt pour-over Portland wolf eu odio intelligentsia american apparel ugh ea. Sunt viral et, 3 wolf moon gastropub pug id. Id fashion axe est typewriter, mlkshk Portland art party aute brunch. Sint pork belly Cosby sweater, deep v mumblecore kitsch american apparel. Try-hard direct trade tumblr sint skateboard. Adipisicing bitters excepteur biodiesel, pickled gastropub aute veniam.&lt;/p&gt;
+
+  &lt;p&gt;&lt;a href=&quot;/articles/longform-post&quot;&gt;A Longform Post to Cogitate&lt;/a&gt; was originally published by Adrian Glitch at &lt;a href=&quot;&quot;&gt;Espresso Math&lt;/a&gt; on August 05, 2013.&lt;/p&gt;</content>
+</entry>
+
+</feed>

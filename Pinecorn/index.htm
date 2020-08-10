@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset = "utf-8">
+		<title></title>
+		<meta name = "viewport" content = "width=device-width, initial-scale=1.0">
+		<link rel="stylesheet" type = "text/css" href = "css/bootstrap.min.css">
+		<link rel="stylesheet" type = "text/css" href = "SEGOEUIL/font.css" >
+		<style type="text/css">
+			body {
+				background: #ffffff;
+				margin: 0;
+				margin-left: 10px;
+				padding: 0;
+			}
+			#log_in {
+				background: #ffffff;
+				height:300px;
+				border-left: 2px #eeeeee solid;
+				border-top: 1px #eeeeee solid;
+				border-bottom: 1px #eeeeee solid;
+				border-right: 1px #eeeeee solid;
+				position: relative;
+				top:120px;
+				border-radius: 3px;
+				box-shadow: 3px #080808;
+				vertical-align: center;
+			}
+			#simple {
+				position: relative;
+				top: 234px;
+				font-weight: light;
+			}
+			#onlytext {
+				font-family: SEGOEUIL;
+				font-size: 70px;
+				color: #65666a;
+			}
+			#puts {
+				position: relative;
+				top:20px;
+				margin-left: 10px;
+			}
+			form {
+				margin-top: 45px;
+				position: relative;
+				right: 20px;
+			}
+			#butt {
+				position: relative;
+				top: 20px;
+				left: 110.6px;
+				background: #ffffff;
+				width: 90px;
+			}
+			#log_in_screen {
+				margin-left: 10px;
+				color:#65666a;
+				font-family: SEGOEUIL;
+				font-weight: lighter;
+			}
+			#what {
+				position: relative;
+				top: -76px;
+			}
+			#thus {
+				position: absolute;
+				top:20px;
+				right: 70px;
+			}
+			a {
+				color:#65666a;
+				font-family: SEGOEUIL;
+				font-size: medium;
+			}
+			
+		</style>
+	</head>
+	<body>
+		<div id = "main">
+			<div id = "logo">
+				<img src = "img/logo.png"
+			</div>
+			<p id = "thus"><a href="#">About  </a>	<a href="#">Contact  </a>   <a href="#">You</a></p>
+			<div class="container" id = "what">
+				<div class="row">
+				<div class="clearfix visible-xs"></div>
+				<div class="col-md-9" id = "simple" >
+					<p id = "onlytext">The World in Your Palm</p>
+				</div>
+				<div class="col-md-3" id = "log_in">
+					<h3 id = "log_in_screen">Log in</h3>
+					<div id = "puts">
+						
+							<form class="form-horizontal" role="form">
+								<div class="form-group">
+								<label for="firstname" class="col-sm-2 control-label"></label>
+								<div class="col-sm-10">
+								<input type="text" class="form-control" id="firstname"
+								placeholder="Enter Username">
+								</div>
+								</div>
+								<div class="form-group">
+								<label for="password" class="col-sm-2 control-label"></label>
+								<div class="col-sm-10">
+								<input type="password" class="form-control" id="password"
+								placeholder="Enter Password">
+								</div>
+								</div>
+
+
+								
+								<div class="form-group">
+								<div class="col-sm-offset-2 col-sm-10">
+								<button type="submit" class="btn btn-default" id = "butt">Sign in</button>
+								</div>
+								</div>
+							</form>
+							
+					</div>
+
+				</div>
+			</div>
+		</div>
+		<script src="http://code.jquery.com/jquery.min.js"></script>
+		<script src="js/bootstrap.min.js"></script>
+	</body>
+</html>

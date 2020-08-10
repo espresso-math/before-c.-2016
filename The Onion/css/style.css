@@ -1,0 +1,23 @@
+.resizer {
+	margin: 15px;
+}
+body {
+	background-color: #fcfcfc;
+	color: #212223;
+	margin: 0;
+	padding: 0;
+}
+p {
+	font-family: Helvetica, Arial, Veranda;
+	font-size:1.15em;
+	letter-spacing: 0.2px;
+	line-height: 1.67em;
+}
+.row {
+
+	margin-top: 50px;
+	padding:5px;
+}
+th {
+	text-align: center;
+}

@@ -1,0 +1,13 @@
+<html>
+
+<body>
+<pre>
+{{recipient}}<br>
+{{sender}}<br>
+{{subject}}<br>
+{{from}}<br>
+{{Date}}<br>
+{{body-mime}}</pre><br>
+</body>
+
+</html>

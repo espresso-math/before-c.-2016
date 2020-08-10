@@ -1,0 +1,30 @@
+{
+  "name": "jazzgr",
+  "version": "0.0.1",
+  "description": "A Reddit style infinitly abstractable discussion forum.",
+  "main": "app.js",
+  "directories": {
+    "test": "tests"
+  },
+  "scripts": {
+    "start": "node app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/espresso-math/fell-secrets.git"
+  },
+  "keywords": [
+    "reddit"
+  ],
+  "author": "forum",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/espresso-math/fell-secrets/issues"
+  },
+  "homepage": "https://github.com/espresso-math/fell-secrets#readme",
+  "dependencies": {
+    "formidable": "^1.0.17",
+    "handlebars": "^4.0.5",
+    "request": "^2.72.0"
+  }
+}

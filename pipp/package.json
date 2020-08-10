@@ -1,0 +1,11 @@
+{
+  "name": "pipp",
+  "version": "1.0.0",
+  "description": "Personal node mail server",
+  "main": "pipp.js",
+  "scripts": {
+    "start": "node pipp.js"
+  },
+  "author": "James Powell",
+  "license": "MIT"
+}

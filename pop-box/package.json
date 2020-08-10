@@ -1,0 +1,17 @@
+{
+  "name": "pop-box",
+  "version": "1.0.0",
+  "description": "personal email handler",
+  "main": "pii.js",
+  "scripts": {
+    "start": "node pii.js"
+  },
+  "author": "James Powell",
+  "license": "MIT",
+  "devDependencies": {
+    "formidable": "^1.0.17",
+    "mailin": "^3.0.3",
+    "querystring": "^0.2.0",
+    "request": "^2.72.0"
+  }
+}

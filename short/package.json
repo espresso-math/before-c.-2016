@@ -1,0 +1,19 @@
+{
+  "name": "short",
+  "version": "1.0.0",
+  "description": "The OpenShift `nodejs` cartridge documentation can be found at:",
+  "main": "dx.js",
+  "dependencies": {
+    "request": "^2.72.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "start": "node dx.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "ssh://57640a6a2d5271fc95000090@short-piiat.rhcloud.com/~/git/short.git"
+  },
+  "author": "JP",
+  "license": "MIT"
+}

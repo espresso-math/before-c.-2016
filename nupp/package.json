@@ -1,0 +1,19 @@
+{
+  "name": "nup",
+  "version": "1.0.0",
+  "description": "A simple data dump api",
+  "main": "nd.js",
+  "scripts": {
+    "start": "node nd.js"
+  },
+  "author": "James Powell",
+  "license": "MIT",
+  "devDependencies": {
+    "mime-types": "^2.1.11",
+    "request": "^2.69.0"
+  },
+  "engines": {
+    "node": "0.10.37",
+    "npm": "3.3.9"
+  }
+}
